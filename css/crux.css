@@ -11,19 +11,37 @@ body {
 .accent{
     font-family: "bebas-neue", sans-serif;    
 }
-
+ul.nav{
+    font-family: "bebas-neue", sans-serif;
+}
 .navbar-crux{
     min-height: 100px;
 }
+.nav-hollow-inverse li > a  {
+    font-size: 32px;
+    color: #F7F5F0;
+    padding: 14px;
+}
+.nav-hollow-inverse li > a:hover  {
+    color: #404041;
+    background-color: #F7F5F0;
+}
 
+.nav-hollow-inverse li:hover  {
+    margin: 0 15px;
+    border: solid 4px #F7F5F0;
+}
+
+.nav-hollow-inverse li.active:hover  {
+}
 .brand-logo {
     height: 192px;
 }
 
-ul.nav{
-    font-family: "bebas-neue", sans-serif;
+.nav-hollow-inverse li{
+    margin: 4px 19px;
 }
-
-.nav-hollow-inverse .active{
-    border: solid 4px #fff;
+.nav-hollow-inverse li.active{
+    margin: 0 15px;
+    border: solid 4px #F7F5F0;
 }
