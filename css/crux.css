@@ -5,6 +5,7 @@ body {
 /* @media (min-width: 1200px) { */
   .container {
     width: 960px;
+    padding: 42px 8px 0 8px;
   }
 
 .accent{
@@ -16,7 +17,7 @@ body {
 }
 
 .brand-logo {
-    height: 180px;
+    height: 192px;
 }
 
 ul.nav{
