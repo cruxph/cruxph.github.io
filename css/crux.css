@@ -188,7 +188,8 @@ div#about > .container > .about-text-container > p.about-text-note{
 div#about > .container > div.crux-logo-about-container{
     line-height: 553px;
 }
-/*rens project.html*/
+
+/*work.html*/
 .work-container{
     width: 100%;
     background:#5a5a5b;
@@ -197,11 +198,14 @@ div#about > .container > div.crux-logo-about-container{
 }
 
 .work-container img{
-    width: 313px;
+    width: 273px;
     height: 179px;
     margin: 0px;
     padding:0;
     display: inline;
 }
+
+
+
 
 
