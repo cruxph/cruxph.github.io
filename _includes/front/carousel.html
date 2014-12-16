@@ -2,7 +2,7 @@
     <div class="carousel-inner">
         {% for item in site.banner_contents %}
             <div class="item {% if forloop.first %} active{% endif %}" style="background: url({{ item.image | prepend: site.baseurl }})">
-                {{ item.content }}
+                <div class="caption">{{ item.content }}</div>
             </div>
         {% endfor %}
         <div class="gradient-overlay">
