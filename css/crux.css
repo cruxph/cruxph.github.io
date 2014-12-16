@@ -8,20 +8,44 @@ body {
     padding: 42px 8px 0 8px;
   }
 
+.carousel-inner .item {
+    min-height: 1024px;
+    background-size: cover;
+}
+
+.gradient-overlay{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50%;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+    background: -o-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+}
+
 .accent{
     font-family: "bebas-neue", sans-serif;    
 }
+
 ul.nav{
     font-family: "bebas-neue", sans-serif;
 }
+
 .navbar-crux{
     min-height: 100px;
+    border-width: 0;
+    margin-bottom: 0;
 }
+
 .nav-hollow-inverse li > a  {
-    font-size: 32px;
+    font-size: 34px;
     color: #F7F5F0;
     padding: 14px;
 }
+
 .nav-hollow-inverse li > a:hover  {
     color: #404041;
     background-color: #F7F5F0;
