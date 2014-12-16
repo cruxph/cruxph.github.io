@@ -11,5 +11,9 @@ $(function(){
         event.preventDefault();
         $('html, body').animate({scrollTop:$('#contact').position().top}, 'slow');
     });
+    $(document).on('click','#home-nav', function(event){
+        event.preventDefault();
+        $('html, body').animate({scrollTop:$('#home').position().top}, 'slow');
+    });
 });
 

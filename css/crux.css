@@ -57,6 +57,10 @@ footer, ul.social-links li > a {
     padding: 42px 8px 0 8px;
   }
 
+  #home-nav{
+      cursor: pointer;
+  }
+
 .carousel-inner .item {
     min-height: 1024px;
     background-size: cover;
