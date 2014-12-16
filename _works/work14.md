@@ -1,4 +1,4 @@
 ---
 title: work 
-image: /img/work14.png
+image: /img/work14.jpg
 ---

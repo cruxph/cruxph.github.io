@@ -178,17 +178,18 @@ div#about > .container > div.crux-logo-about-container{
 }
 /*rens project.html*/
 .work-container{
-    margin: 0 auto;
+    width: 100%;
+    background:#5a5a5b;
+    overflow-y: hidden;
+    text-align: center;
 }
-
 
 .work-container img{
-    width:313px;
-    height:179px;
-    float:left;
-    display:inline-block;
-}
-.work-container .col-md-3{
+    width: 313px;
+    height: 179px;
+    margin: 0px;
     padding:0;
-    margin:0;
+    display: inline;
 }
+
+
