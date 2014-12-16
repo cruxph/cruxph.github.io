@@ -199,11 +199,49 @@ div#about > .container > div.crux-logo-about-container{
 
 .work-container img{
     width: 273px;
-    height: 179px;
+    height: 150px;
     margin: 0px;
     padding:0;
     display: inline;
 }
+
+/* for 600px or less */
+@media screen and (max-width: 600px) {
+
+.work-container{
+    width: 100%;
+    background:#5a5a5b;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.work-container img{
+    width: 270px;
+    height: 150px;
+    margin: 0px;
+    padding:0;
+    display: inline;}
+
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+.work-container{
+    width: 100%;
+    background:#5a5a5b;
+    overflow-y: hidden;
+    text-align: left;
+}
+
+.work-container img{
+    width: 100%;
+    height: 210px;
+    margin: 0px;
+    padding:0;
+    display: inline;}
+}
+ 
 
 
 
