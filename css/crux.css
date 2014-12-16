@@ -8,7 +8,7 @@ footer {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     filter: grayscale(100%);
-    
+    padding-bottom: 60px;    
 }
 
 .address {
@@ -18,20 +18,19 @@ footer {
 .footer {
     padding: 36px 0;
     position: absolute;
+    height: 60px;
     bottom: 0;
 }
 
-/* .footer .social-links {
-    position: absolute;
+.footer .social-links {
     bottom: 0;
     right: 0;
 }
 
 .footer .copyright {
-    position: absolute;
     bottom: 0;
     left: 0;
-} */
+} 
 
 ul.social-links {
     list-style: none;
