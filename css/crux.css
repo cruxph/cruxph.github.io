@@ -1,0 +1,16 @@
+.accent{
+    font-family: "bebas-neue", sans-serif;    
+}
+
+.navbar-crux{
+    position: fixed;
+    min-height: 100px;
+}
+
+ul.nav{
+    font-family: "bebas-neue", sans-serif;
+}
+
+.nav-hollow-inverse .active{
+    border: solid 2px #fff;
+}
