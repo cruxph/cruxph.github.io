@@ -87,6 +87,7 @@ section#about > .container > .crux-logo-about-container >.crux-logo-about{
 section#about > .container > .about-text-container {
     padding-left: 5px;
     padding-right: 5px;
+    color: #ffffff;
 }
 
 section#about > .container{
