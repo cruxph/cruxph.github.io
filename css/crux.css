@@ -99,3 +99,19 @@ section#about > .container > .about-text-container > .about-text{
     font-size: 21px;
     margin-top: 30px;
 }
+
+/*rens project.html*/
+.work-container{
+    margin:0 auto;
+}
+
+
+.work-container img{
+    width:313px;
+    height:179px;
+    float:left;
+}
+.work-container .col-md-3{
+    padding:0;
+    margin:0;
+}
