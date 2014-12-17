@@ -4,8 +4,9 @@ layout: front
 <script type="text/javascript">
   $(document).ready(function(){
     $(window).scroll(function(){
+      console.log($(window).scrollTop())
       var brand = $('.brand-logo');
-      if ($(window).scrollTop() >= 100) {
+      if ($(window).scrollTop() >= 800) {
         if (!brand.hasClass('nav-scrolled')){
           //brand.fadeOut();
           brand.attr('src', '/img/crux-sign.png');
