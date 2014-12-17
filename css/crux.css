@@ -111,6 +111,35 @@ footer, ul.social-links li > a {
     background-repeat: no-repeat;
 }
 
+.carousel-inner > a.left{
+    z-index: 10;
+}
+
+.carousel-inner > a.left > span >img{
+    z-index: 0;
+    width: 73px;
+}
+
+.carousel-inner > a.left > span{
+    position: absolute;
+    top: 50%;
+    left: 16px;
+}
+
+.carousel-inner > a.right{
+    z-index: 10;
+}
+
+.carousel-inner > a.right > span >img{
+    z-index: 0;
+    width: 73px;
+}
+
+.carousel-inner > a.right > span{
+    position: absolute;
+    top: 50%;
+    right: 16px;
+}
 /* 
 * migrated image to img tag
 .carousel-inner .item {
