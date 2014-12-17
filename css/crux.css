@@ -198,11 +198,31 @@ div#about > .container > div.crux-logo-about-container{
 }
 
 .work-container img{
-    width: 273px;
-    height: 150px;
     margin: 0px;
     padding:0;
     display: inline;
+}
+
+.image-hover {
+    position: relative;
+    min-height: 179px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-hover .caption{
+    display: none;
+    background: rgba(64, 64, 67, .8);
+    color: #F7F5F0;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
+.work-container .col-md-3{
+    padding:0;    
 }
 
 /* for 600px or less */
@@ -221,9 +241,9 @@ div#about > .container > div.crux-logo-about-container{
     margin: 0px;
     padding:0;
     display: inline;}
-
-
 }
+
+
 
 /* for 480px or less */
 @media screen and (max-width: 480px) {

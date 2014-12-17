@@ -1,13 +1,29 @@
-<div class="work-container">{% for work in site.works %}<img src="{{site.baseurl}}{{work.image}}"/>{% endfor %}
+<div class="work-container">
+	{% for work in site.works %}
+		<div class="col-md-3">
+			<div class="image-hover" style="background: url({{site.baseurl}}{{work.image}}); background-repeat:no-repeat; background-size: cover;">
+				<div class="caption">
+					<h4>{{work.title}}</h4>
+					<p>{{work.description}}</p>
+					<a href="{{work.url}}">READ MORE</a>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
 </div>
 
-<!-- 
-<ul class="img-list">
-  <li>
-    <a href="http://nataliemac.com">
-      <img src="http://geekgirllife.com/images/filename.jpg" width="150" height="150" />
-      <span class="text-content"><span>Place Name</span></span>
-    </a>
-  </li>
-  ...
-</ul> -->
+<!-- js for image hover effect -->
+<script>
+$( document ).ready(function() {
+    $("[rel='tooltip']").tooltip();    
+ 
+    $('.image-hover').hover(
+        function(){
+            $(this).find('.caption').fadeIn(250);
+        },
+        function(){
+            $(this).find('.caption').fadeOut(205);
+        }
+    ); 
+});
+</script>
