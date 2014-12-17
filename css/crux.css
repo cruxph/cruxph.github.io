@@ -309,6 +309,10 @@ body#work-page{
     background-color: #f7f5f0;
 }
 
+body#work-page > .container{
+    padding-top: 80px;
+}
+
 nav#work-navbar {
     border-bottom: 1px solid #413f42;
     background-color: #f7f5f0;
@@ -320,7 +324,7 @@ nav#work-navbar > .container > .navbar-header > img{
 }
 
 nav#work-navbar > .container {
-    padding: 0;
+    padding-top: 0;
     line-height: 79px;
 }
 
@@ -349,6 +353,52 @@ nav#work-navbar > .container > .navbar-right > ul.nav > li.active > a{
     padding-bottom: 2px;
     border-bottom: 4px solid #413f42;
 }
+div.work-page-container{
+    padding-top: 81px;
+}
+div.work-page-container > .work-content , div.work-page-container > .work-content > *{
+    padding-left: 0;
+}
+div.work-page-container > .work-content > h1.work-title{
+    font-family: "bebas-neue", sans-serif;
+    color: #413f42;
+    margin: 0;
+    font-size: 26px;
+}
+
+div.work-page-container > .work-content > p {
+    font-size: 15px;
+}
+
+div.work-page-container > .work-content > p.work-identity {
+    padding-top: 6px
+}
+div.work-page-container > .work-content > p.divider {
+    padding: 8px 0;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+div.work-page-container > .work-content > p.work-definition {
+    padding-top: 8px;
+    padding-right: 74px;
+    letter-spacing: 0px;
+    line-height: 21px;
+}
+
+div.work-page-container > .work-images{
+    padding-left: 7px;
+}
+
+div.work-page-container > .work-images > img{
+    width: 620px;
+}
+
+div.work-page-container > .work-images > img:not(:first-of-type){
+    margin-top: 60px;
+}
+
+
+
 
 /* for 992px or less */
 @media screen and (max-width: 992px) {
