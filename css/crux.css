@@ -79,13 +79,6 @@ footer, ul.social-links li > a {
     color: #F7F5F0;
 }
 
-@media (min-width: 1200px) {
-    .container {
-        width: 960px;
-        padding: 42px 8px 0 8px;
-    }
-}
-
 #home-nav{
     cursor: pointer;
 }
@@ -132,11 +125,25 @@ ul.nav{
     font-family: "bebas-neue", sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    width: 960px;
+    padding: 8px;
+    transition: all 0.25s;
+}
+
+@media (max-width: 960px ){
+    .container {
+        width: 100%
+    }
+}
+div.navbar-brand {
+    padding: 8px;
+}
 .navbar-crux{
-    min-height: 100px;
+    min-height: 72px;
     border-width: 0;
     margin-bottom: 0;
-
     transition: all 0.5s;
 }
 

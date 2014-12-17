@@ -4,18 +4,17 @@ layout: front
 <script type="text/javascript">
   $(document).ready(function(){
     $(window).scroll(function(){
-      console.log($(window).scrollTop())
       var brand = $('.brand-logo');
-      if ($(window).scrollTop() >= 800) {
+      if ($(window).scrollTop() > ($('.work-container').offset().top - 146)) {
         if (!brand.hasClass('nav-scrolled')){
           //brand.fadeOut();
           brand.attr('src', '/img/crux-sign.png');
           brand.fadeIn();
           brand.addClass('nav-scrolled');
-          $('.navbar').addClass('navbar-crux-default').find('.container').css('padding-top', '21px');;
+          $('.navbar').addClass('navbar-crux-default').find('.container').css('padding-top', '8px');;
         }
       } 
-      if ($(window).scrollTop() == 0) {
+      else if ($(window).scrollTop() < ($('.work-container').offset().top - 146)) {
         brand.attr('src', '/img/crux-logo.png');
         brand.fadeIn();
         brand.removeClass('nav-scrolled');
