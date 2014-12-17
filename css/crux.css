@@ -373,13 +373,9 @@ nav#work-navbar > .container > .navbar-right > ul.nav > li.active > a{
         min-height: 130px;
         float: left;
     }
-
- .caption h1,p{
-    padding-top:0px;
-    padding-left:8px;
-}
-
+    
  .caption h1{
+        padding-top:0;
         font-size:25px;
     }
  .caption p{
