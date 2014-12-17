@@ -1,7 +1,7 @@
 body {
     background-color: #555;
-    width: auto;
-    overflow-x: hidden;
+    width: auto !important;
+    overflow-x: hidden !important;
 }
 
 footer {
@@ -134,12 +134,6 @@ ul.nav{
     transition: all 0.25s;
 }
 
-@media (max-width: 767px){
-    .navbar {
-       padding:0 20px;
-    } 
- }
-
 @media (max-width: 960px ){
     .container {
         width: 100%;
@@ -147,7 +141,7 @@ ul.nav{
     }
 }
 
-.navbar-brand .nav-scrolled{
+.brand-logo{
     margin-top: -12px;
 }
 
@@ -197,6 +191,13 @@ ul.nav{
 .brand-logo.nav-scrolled {
     height: 50px;
 }
+
+@media (max-width: 767px){
+    .brand-logo {
+        content: url(/img/crux-sign.png);
+        height: 50px;
+    }
+ }
 
 .nav-hollow-inverse li{
     margin: 4px 19px;
