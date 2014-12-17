@@ -261,11 +261,51 @@ div#about > .container > div.crux-logo-about-container{
     min-height: 220px;
     background-repeat: no-repeat;
 }
-
+/* work page style */
 body#work-page{
     background-color: #f7f5f0;
 }
 
+nav#work-navbar {
+    border-bottom: 1px solid #413f42;
+    background-color: #f7f5f0;
+}
+
+nav#work-navbar > .container > .navbar-header > img{
+    width: 50px;
+    height: auto;
+}
+
+nav#work-navbar > .container {
+    padding: 0;
+    line-height: 79px;
+}
+
+nav#work-navbar > .container > .navbar-header{
+    padding-left: 14px;
+}
+
+nav#work-navbar > .container > .navbar-right > ul.nav{
+    padding-right: 0;
+    height: 79px;
+}
+nav#work-navbar > .container > .navbar-right > ul.nav > li{
+    font-size: 30px;
+    height: 100%;
+    text-align: right;
+    font-weight: lighter;
+    letter-spacing: 0px;
+}
+nav#work-navbar > .container > .navbar-right > ul.nav > li > a{
+    vertical-align: middle;
+    display: inline;
+    padding: 0;
+    color: #413f42;
+}
+nav#work-navbar > .container > .navbar-right > ul.nav > li.active > a{
+    padding-bottom: 2px;
+    border-bottom: 4px solid #413f42;
+}
 
 /* for 992px or less */
 @media screen and (max-width: 992px) {
