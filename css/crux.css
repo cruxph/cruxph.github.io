@@ -50,11 +50,12 @@ footer, ul.social-links li > a {
     color: #F7F5F0;
 }
 
-/* @media (min-width: 1200px) { */
+ @media (min-width: 1200px) { 
   .container {
     width: 960px;
     padding: 42px 8px 0 8px;
   }
+}
 
   #home-nav{
       cursor: pointer;
@@ -228,18 +229,12 @@ div#about > .container > div.crux-logo-about-container{
 /* for 600px or less */
 @media screen and (max-width: 600px) {
 
-.work-container{
-    width: 100%;
-    background:#5a5a5b;
-    overflow-y: hidden;
-    text-align: center;
-}
-
 .work-container img{
     width: 270px;
-    height: 150px;
+    height: 350px;
     margin: 0px;
     padding:0;
+    text-align: center;
     display: inline;}
 }
 
@@ -251,7 +246,7 @@ div#about > .container > div.crux-logo-about-container{
     width: 100%;
     background:#5a5a5b;
     overflow-y: hidden;
-    text-align: left;
+    text-align: center;
 }
 
 .work-container img{
