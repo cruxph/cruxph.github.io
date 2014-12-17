@@ -96,25 +96,19 @@ footer, ul.social-links li > a {
 }
 
 .carousel {
-    position: relative;
+
 }
 
 .carousel-inner {
+    position: relative;
     height: 100vh;
-    top: 0;
-    bottom: 0;
 }
 
 .carousel-inner .item{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    height: inherit;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 /* 
