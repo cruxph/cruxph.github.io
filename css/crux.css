@@ -46,9 +46,9 @@ ul.social-links {
 
 ul.social-links li {
     display: inline;
-    padding: 15px 36px;
+    padding: 0;
     -webkit-padding-start: 0;
-    margin: 0;
+    margin: 12px 16px;
 }
 
 ul.social-links li > a:hover {
