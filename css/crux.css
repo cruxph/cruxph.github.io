@@ -225,7 +225,7 @@ ul.nav{
         content: url(/img/crux-sign.png);
         height: 50px;
     }
- }
+}
 
 .nav-hollow-inverse li{
     margin: 4px 19px;
@@ -339,6 +339,7 @@ body#work-page{
 
 body#work-page > .container{
     padding-top: 80px;
+    padding-bottom: 153px;
 }
 
 nav#work-navbar {
@@ -354,6 +355,7 @@ nav#work-navbar > .container > .navbar-header > img{
 nav#work-navbar > .container {
     padding-top: 0;
     line-height: 79px;
+
 }
 
 nav#work-navbar > .container > .navbar-header{
@@ -425,9 +427,46 @@ div.work-page-container > .work-images > img:not(:first-of-type){
     margin-top: 60px;
 }
 
+footer#work-footer{
+    min-height: inherit;
+    padding-bottom: 40px;
+}
 
+footer#work-footer > .credits-container > p.credits {
+    color: #413f42;
+    font-size: 16px;
+    margin-left: 174px;
+}
 
+footer#work-footer > .social-links-content{
+    padding-top: 3px;
+}
 
+footer#work-footer > .social-links-content > span#fb-link{
+    margin-left: 5px;
+}
+
+footer#work-footer > .social-links-content > span#behance-link{
+    margin-left: 20px;
+}
+
+footer#work-footer > .social-links-content > span#behance-link > a > img{
+    width: 34px;
+    padding-top: 5px;
+}
+
+footer#work-footer > .social-links-content > span#fb-link > a > img{
+    width: 12px;
+}
+
+footer#work-footer > .social-links-content > span#vimeo-link{
+    margin-left: 14px;
+}
+
+footer#work-footer > .social-links-content > span#vimeo-link > a > img{
+    width: 23px;
+    padding-top: 5px;
+}
 /* for 992px or less */
 @media screen and (max-width: 992px) {
 
@@ -439,7 +478,7 @@ div.work-page-container > .work-images > img:not(:first-of-type){
     .caption h1{
         font-size:25px;
     }
-      .caption p{
+    .caption p{
         font-size: 13px
     }
 }
@@ -447,17 +486,17 @@ div.work-page-container > .work-images > img:not(:first-of-type){
 /* for 768px or less */
 
 @media screen and (max-width: 768px){
- .work-container .image-hover{
+    .work-container .image-hover{
         width: 50%;
         min-height: 130px;
         float: left;
     }
-    
- .caption h1{
+
+    .caption h1{
         padding-top:0;
         font-size:25px;
     }
- .caption p{
+    .caption p{
         font-size: 13px;
     }
 
