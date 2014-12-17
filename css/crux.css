@@ -22,11 +22,29 @@ footer {
     position: absolute;
     height: 60px;
     bottom: 0;
+    width: 960px;
 }
 
-@media (min-width: 1200px){
+@media (max-width: 1200px){
     .footer {
         width: 960px;
+    }
+}
+
+@media (max-width: 992px){
+    .footer {
+        position: static;
+        text-align: center;
+    }
+
+    .footer .social-links {
+    position: static;
+    right: 0;
+    }
+
+    .footer .copyright {
+        position: static;
+        left: 0;
     }
 }
 
