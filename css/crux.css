@@ -54,7 +54,8 @@ footer {
     .footer {
         position: static;
         text-align: center;
-        width: 90vw;
+        width: inherit;
+        margin: 0;
     }
 
     .footer .social-links {
