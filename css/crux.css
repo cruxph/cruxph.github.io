@@ -347,7 +347,7 @@ nav#work-navbar {
     background-color: #f7f5f0;
 }
 
-nav#work-navbar > .container > .navbar-header > img{
+nav#work-navbar > .container > .navbar-header > a >img{
     width: 50px;
     height: auto;
 }
