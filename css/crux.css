@@ -7,8 +7,13 @@ body {
 footer {
     position: relative;
     min-height: 534px;
-    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: bottom center;
     background-size: cover;
+    background-repeat: no-repeat;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -24,31 +29,8 @@ footer {
     position: absolute;
     height: 60px;
     bottom: 0;
-    width: 960px;
 }
 
-@media (max-width: 1200px){
-    .footer {
-        width: 960px;
-    }
-}
-
-@media (max-width: 992px){
-    .footer {
-        position: static;
-        text-align: center;
-    }
-
-    .footer .social-links {
-    position: static;
-    right: 0;
-    }
-
-    .footer .copyright {
-        position: static;
-        left: 0;
-    }
-}
 
 .footer .social-links {
     position: absolute;
@@ -58,6 +40,30 @@ footer {
 .footer .copyright {
     position: absolute;
     left: 0;
+}
+
+@media (min-width: 1200px){
+    .footer {
+        width: 960px;
+    }
+}
+
+@media (max-width: 992px){
+    .footer {
+        position: static;
+        text-align: left;
+        width: 100vw;
+    }
+
+    .footer .social-links {
+        position: static;
+        right: auto;
+    }
+
+    .footer .copyright {
+        position: static;
+        left: auto;
+    }
 }
 
 ul.social-links {
@@ -85,8 +91,26 @@ footer, ul.social-links li > a {
     cursor: pointer;
 }
 
-.carousel-inner .item img{
-    width: 100%;
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+}
+
+.carousel-inner .item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* 
