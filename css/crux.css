@@ -5,10 +5,12 @@ body {
 footer {
     position: relative;
     min-height: 534px;
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     filter: grayscale(100%);
-    padding-bottom: 60px;    
+    padding-bottom: 60px;   
 }
 
 .address {
@@ -69,10 +71,17 @@ footer, ul.social-links li > a {
   #home-nav{
       cursor: pointer;
   }
-
 .carousel-inner .item {
+    background-size: 100%;
+    background-repeat: no-repeat;
     min-height: 1024px;
-    background-size: cover;
+}
+
+
+@media (min-width: 1200){
+    .carousel-inner .item {
+        min-height: 1024px;
+    }
 }
 
 .carousel {
