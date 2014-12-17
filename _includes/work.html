@@ -1,5 +1,5 @@
 <div class="work-container">
-	{% for work in site.works %}
+	{% for work in site.works limit:12 %}
 		<div class="col-md-3">
 			<div class="image-hover" style="background: url({{site.baseurl}}{{work.image}}); 
     background-size: cover;">

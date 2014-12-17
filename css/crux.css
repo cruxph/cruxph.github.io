@@ -212,10 +212,16 @@ div#about > .container > div.crux-logo-about-container{
     text-align: center;
 }
 
-.image-hover {
+.image-hover{
     position: relative;
     min-height: 179px;
     background-repeat: no-repeat;
+}
+
+.caption h1,p{
+    padding-top:2px;
+    padding-left:15px;
+    text-align: left;
 }
 
 .image-hover .caption{
@@ -231,6 +237,13 @@ div#about > .container > div.crux-logo-about-container{
 
 .work-container .col-md-3{
     padding:0;    
+}
+
+/* for 1200 or less */
+.image-hover {
+    position: relative;
+    min-height: 190px;
+    background-repeat: no-repeat;
 }
 
 /* for 992px or less */
