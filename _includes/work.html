@@ -1,9 +1,10 @@
 <div class="work-container">
 	{% for work in site.works %}
 		<div class="col-md-3">
-			<div class="image-hover" style="background: url({{site.baseurl}}{{work.image}}); background-repeat:no-repeat; background-size: cover;">
+			<div class="image-hover" style="background: url({{site.baseurl}}{{work.image}}); 
+    background-size: cover;">
 				<div class="caption">
-					<h4>{{work.title}}</h4>
+					<h1 class="accent">{{work.title}}</h1>
 					<p>{{work.description}}</p>
 					<a href="{{work.url}}">READ MORE</a>
 				</div>
