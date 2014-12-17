@@ -77,14 +77,6 @@ footer, ul.social-links li > a {
     background-repeat: no-repeat;
     min-height: 1024px;
 }
-
-
-@media (min-width: 1200){
-    .carousel-inner .item {
-        min-height: 1024px;
-    }
-}
-
 .carousel {
     margin-bottom: 0;
 }
@@ -283,48 +275,38 @@ body#work-page{
 
 @media screen and (max-width: 768px){
  .work-container .image-hover{
-        width: 33.3333333%;
+        width: 50%;
         min-height: 130px;
         float: left;
     }
 
  .caption h1,p{
-    padding-top:2px;
-    padding-left:10px;
-    text-align: left;
+    padding-top:0px;
+    padding-left:8px;
 }
 
  .caption h1{
-        font-size:20px;
+        font-size:25px;
     }
  .caption p{
-        font-size: 10px;
+        font-size: 13px;
     }
 
 }
 /* for 600px or less */
 @media screen and (max-width: 600px) {
 
-    .work-container img{
-        width: 270px;
-        height: 350px;
-        margin: 0px;
-        padding:0;
-        text-align: center;
-        display: inline;
-    }
-
     .work-container .image-hover{
-        width: 100%;
+        width:50%;
         float: left;
-        min-height: 210px;
+        min-height: 130px;
     }
 
-        .caption h1{
-        font-size:20px;
+    .caption h1{
+        font-size:25px;
     }
-      .caption p{
-        font-size: 10px;
+    .caption p{
+        font-size: 12px;
     }
 }
 
@@ -334,6 +316,14 @@ body#work-page{
         width: 100%;
         float: left;
         min-height: 150px;
+    }
+
+
+    .caption h1{
+        font-size:30px;
+    }
+    .caption p{
+        font-size: 14px;
     }
 }
  
