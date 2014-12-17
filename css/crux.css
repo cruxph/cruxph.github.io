@@ -137,13 +137,17 @@ ul.nav{
         width: 100%
     }
 }
-div.navbar-brand {
-    padding: 8px;
+
+.navbar-brand .nav-scrolled{
+    margin-top: -12px;
 }
-.navbar-crux{
+
+.navbar-inverse{
     min-height: 72px;
     border-width: 0;
+    background-color: transparent;
     margin-bottom: 0;
+    color: #F7F5F0;
     transition: all 0.5s;
 }
 
@@ -151,7 +155,12 @@ div.navbar-brand {
     background-color: rgba(64, 64, 66, 0.8);
 }
 
-.navbar-crux li > a  {
+.navbar-inverse .navbar-toggle {
+    border: solid 4px #F7F5F0;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse li > a  {
     font-size: 34px;
     color: #F7F5F0;
     padding: 14px;
@@ -162,16 +171,15 @@ div.navbar-brand {
     background-color: transparent;
 }
 
-.navbar-crux li > a:hover  {
+.navbar-inverse li > a:hover  {
     /* color: #404041;
     background-color: #F7F5F0; */
 }
 
-.navbar-crux li:hover  {
+.navbar-inverse li:hover  {
     margin: 0 15px;
     border: solid 4px #F7F5F0;
 }
-
 
 .brand-logo {
     height: 192px;
