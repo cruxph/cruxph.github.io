@@ -61,6 +61,8 @@ nav#work-navbar > .container .navbar-right > ul.nav > li > a:hover{
 div.work-page-container{
     padding-top: 81px;
     width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
 div.work-page-container > .work-content , div.work-page-container > .work-content > *{
     padding-left: 0;
@@ -93,7 +95,7 @@ div.work-page-container > .work-content > div.work-definition > p{
 
 }
 
-.work-images .col-md-8{
+.work-images.col-md-8{
     padding-left: 0;
     padding-right: 0;
 }
@@ -106,6 +108,7 @@ div.work-page-container > .work-images > img{
     width: 620px;
     margin:0 auto;
     float:right;
+    padding-right:0;
 }
 
 div.work-page-container > .work-images > img:not(:first-of-type){
