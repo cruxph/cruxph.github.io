@@ -127,28 +127,24 @@ ul.nav{
     transition: all 0.25s;
 }
 
-/*for navbar-default */
-
-
-
-
-
-
-/*end of navbar-default*/
-
-
-
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+}
 
 .brand-logo.nav-scrolled, .brand-logo-small {
     height: 36px;
 }
-
-
+@media (min-width: 767px){
+    .brand-logo {
+        height: 192px;
+    }
+}
 @media (max-width: 767px){
     .brand-logo {
         content: url(/img/crux-sign.png);
         height: 36px;
     }
 }
-
 

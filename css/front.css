@@ -86,18 +86,9 @@
     border: solid 2px #F7F5F0;
 }
 
-.navbar-inverse li > a:hover  {
-    /* color: #404041;
-    background-color: #F7F5F0; */
-}
-
 .navbar-inverse li:hover  {
     margin: 0 15px;
     border: solid 2px #F7F5F0;
-}
-
-.brand-logo {
-    height: 192px;
 }
 
 /* about style */
