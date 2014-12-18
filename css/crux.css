@@ -181,17 +181,11 @@ ul.nav{
 
 .container {
     margin: 0 auto;
-    width: 960px;
     padding: 8px;
     transition: all 0.25s;
 }
 
-@media (max-width: 960px ){
-    .container {
-        width: 100%;
-        margin: 0 auto;
-    }
-}
+
 
 .brand-logo{
     margin-top: -12px;
@@ -433,7 +427,7 @@ div.work-page-container > .work-content > p.divider {
     font-size: 18px;
     margin-bottom: 0;
 }
-div.work-page-container > .work-content > div.work-definition > p {
+div.work-page-container > .work-content > div.work-definition > p{
     padding-top: 8px;
     padding-right: 74px;
     letter-spacing: 0px;
@@ -447,11 +441,45 @@ div.work-page-container > .work-images{
 
 div.work-page-container > .work-images > img{
     width: 620px;
+    margin:0 auto;
 }
 
 div.work-page-container > .work-images > img:not(:first-of-type){
     margin-top: 60px;
 }
+
+/*for 992px or less*/
+@media screen and (max-width: 992px) {
+
+div.work-page-container > .work-content > div.work-definition > p{
+    padding-top: 8px;
+    padding-right: 0px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    padding-left: 0px;}
+
+    div.work-page-container > .work-images > img{
+    width: 100%; 
+    min-height: 150px;
+    margin:0 auto;}
+}
+
+
+
+/* for 772px or less */
+@media screen and (max-width: 772px) {
+   div.work-page-container > .work-images > img{
+    width: 100%; 
+    min-height: 150px;
+    margin:0 auto;}
+
+    div.work-page-container > .work-content , div.work-page-container > .work-content > *{
+    width:100%;}
+
+}
+
+
+/*footer style*/
 
 footer#work-footer{
     min-height: inherit;
@@ -505,7 +533,7 @@ footer#work-footer > .social-links-content > span#vimeo-link > a > img{
         font-size:25px;
     }
     .caption p{
-        font-size: 13px
+        font-size: 11px
     }
 }
 
@@ -514,7 +542,7 @@ footer#work-footer > .social-links-content > span#vimeo-link > a > img{
 @media screen and (max-width: 768px){
     .work-container .image-hover{
         width: 50%;
-        min-height: 130px;
+        min-height: 160px;
         float: left;
     }
 
@@ -523,7 +551,7 @@ footer#work-footer > .social-links-content > span#vimeo-link > a > img{
         font-size:25px;
     }
     .caption p{
-        font-size: 13px;
+        font-size: 11px;
     }
 
 }
@@ -537,10 +565,10 @@ footer#work-footer > .social-links-content > span#vimeo-link > a > img{
     }
 
     .caption h1{
-        font-size:25px;
+        font-size:23px;
     }
     .caption p{
-        font-size: 12px;
+        font-size: 9px;
     }
 }
 
