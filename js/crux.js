@@ -5,7 +5,7 @@ $(function(){
     });
     $(document).on('click','#work-nav', function(event){
         event.preventDefault();
-        $('html, body').animate({scrollTop:$('.work-container').position().top - 82}, 'slow');
+        $('html, body').animate({scrollTop:$('.work-container').position().top - 72}, 'slow');
     });
     $(document).on('click','#contact-nav', function(event){
         event.preventDefault();
