@@ -4,7 +4,23 @@
 <body id="work-page">
 <div class="container">
     {% include works/workNav.html %}
-    {{ content }}
+    <div class="work-page-container clearfix">
+    <div class="work-content col-md-4">
+        <h1 class="work-title">
+            {{ page.title }}
+        </h1>
+        <p class="work-identity">Identity</p>
+        <p class="divider">-</p>
+        <div class="work-definition">
+            {{ content }}
+        </div>
+    </div>
+    <div class="work-images col-md-8">
+        {% for image in page.images %}
+            <img src="{{ image }}"/>
+        {% endfor %}
+    </div>
+</div>
 </div>
 {% include works/workFooter.html %}
 </body>

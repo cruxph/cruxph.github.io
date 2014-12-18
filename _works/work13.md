@@ -1,5 +1,6 @@
 ---
-title: Work 13 
-image: /img/work13.jpg
+title: Work 13
+layout: work
+feature_image: /img/work13.jpg
 description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 ---

@@ -431,11 +431,12 @@ div.work-page-container > .work-content > p.divider {
     font-size: 18px;
     margin-bottom: 0;
 }
-div.work-page-container > .work-content > p.work-definition {
+div.work-page-container > .work-content > div.work-definition > p {
     padding-top: 8px;
     padding-right: 74px;
     letter-spacing: 0px;
     line-height: 21px;
+    padding-left: 0px;
 }
 
 div.work-page-container > .work-images{
