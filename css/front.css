@@ -1,0 +1,267 @@
+#home-nav{
+    cursor: pointer;
+}
+
+.carousel-inner {
+    position: relative;
+    height: 100vh;
+}
+
+.carousel-inner .item{
+    height: inherit;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner > a.left{
+    z-index: 10;
+}
+
+.carousel-inner > a.left > span >img,
+.carousel-inner > a.right > span >img{
+    z-index: 0;
+    width: 50px;
+}
+
+.carousel-inner > a.left > span,
+.carousel-inner > a.right > span{
+    position: absolute;
+    top: 50%;
+}
+
+.carousel-inner > a.left > span {
+    left: 35%;
+}
+
+.carousel-inner > a.right > span {
+    right: 35%;
+}
+
+.carousel-inner > a.right{
+    z-index: 10;
+}
+
+.carousel {
+    margin-bottom: 0;
+}
+
+.navbar-inverse{
+    min-height: 72px;
+    border-width: 0;
+    padding-top: 16px;
+    background-color: transparent;
+    margin-bottom: 0;
+    color: #F7F5F0;
+    transition: all 0.5s;
+}
+
+.navbar-crux-default{
+    background-color: rgba(64, 64, 66, 1);
+}
+
+.navbar-inverse .navbar-toggle {
+    border: solid 4px #F7F5F0;
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse li > a  {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #F7F5F0;
+    padding: 8px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-inverse li > a:hover  {
+    /* color: #404041;
+    background-color: #F7F5F0; */
+}
+
+.navbar-inverse li:hover  {
+    margin: 0 15px;
+    border: solid 2px #F7F5F0;
+}
+
+.brand-logo {
+    height: 192px;
+}
+
+/* about style */
+
+div#about{
+    background-color: #404042;
+}
+
+div#about > .container > .crux-logo-about-container{
+    padding: 0;
+}
+
+div#about > .container > .crux-logo-about-container >.crux-logo-about{
+    width: 298px;
+}
+
+div#about > .container > .about-text-container {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+div#about > .container{
+    padding-top: 105px;
+    padding-bottom: 180px;
+}
+
+div#about > .container > .about-text-container > .about-text{
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+div#about > .container > .about-text-container > h1{
+    font-family: "bebas-neue", sans-serif;
+}
+
+div#about > .container > .about-text-container > h1#about-caption-first-line{
+    font-size: 69px;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+div#about > .container > .about-text-container > h1#about-caption-second-line{
+    font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 41px;
+}
+
+div#about > .container > .about-text-container > p.about-text-note{
+    margin-bottom: 0px;
+}
+
+div#about > .container > div.crux-logo-about-container{
+    line-height: 553px;
+}
+
+/*work.html*/
+.work-container{
+    width: 100%;
+    background:#5a5a5b;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.image-hover{
+    position: relative;
+    min-height: 179px;
+    background-repeat: no-repeat;
+}
+
+
+
+.caption h1,p{
+    padding-top:2px;
+    padding-left:15px;
+    text-align: left;
+}
+
+.image-hover .caption{
+    display: none;
+    background: rgba(64, 64, 67, .8);
+    color: #F7F5F0;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
+.caption h1{
+    font-size: 25px;
+}
+
+.caption p{
+    font-size:13px;
+}
+
+.work-container .col-md-3{
+    padding:0;
+}
+
+/* for 1200 or less */
+.image-hover {
+    position: relative;
+    min-height: 220px;
+    background-repeat: no-repeat;
+}
+
+/* for 992px or less */
+@media screen and (max-width: 992px) {
+
+    .work-container .image-hover{
+        width: 33.3333333%;
+        float: left;
+        min-height: 150px;
+    }
+    .caption h1{
+        font-size:25px;
+    }
+    .caption p{
+        font-size: 11px
+    }
+}
+
+/* for 768px or less */
+
+@media screen and (max-width: 768px){
+    .work-container .image-hover{
+        width: 50%;
+        min-height: 160px;
+        float: left;
+    }
+
+    .caption h1{
+        padding-top:0;
+        font-size:25px;
+    }
+    .caption p{
+        font-size: 11px;
+    }
+
+}
+/* for 600px or less */
+@media screen and (max-width: 600px) {
+
+    .work-container .image-hover{
+        width:50%;
+        float: left;
+        min-height: 130px;
+    }
+
+    .caption h1{
+        font-size:23px;
+    }
+    .caption p{
+        font-size: 9px;
+    }
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+    .work-container .image-hover{
+        width: 100%;
+        float: left;
+        min-height: 150px;
+    }
+
+
+    .caption h1{
+        font-size:30px;
+    }
+    .caption p{
+        font-size: 14px;
+    }
+}
