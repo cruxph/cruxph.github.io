@@ -2,28 +2,12 @@
 <html>
 
   {% include head.html %}
-
-  <style>
-  #mock{
-     opacity: 0.8;
-     z-index: 1000;
-     position: absolute;
-     width: 100%;
-     height: 1024px;
-     background-image: url('/img/mock.jpg');
-     background-position: top center;
-     background-repeat: no-repeat;
-  }
-  </style>
-
   <body>
     <!-- <div id="mock"></div> -->
-    {% include nav.html %}
-    {% include front/carousel.html %}
-    {% include work.html %}
-    {% include about.html %}
-    {% include footer.html %}
+    {% include front/nav.html %}
     {{ content }}
+    {% include front/footer.html %}
+    <script src="{{ "/js/fixed-inverse-nav.js" | prepend: site.baseurl }}"></script>
   </body>
 
 </html>
