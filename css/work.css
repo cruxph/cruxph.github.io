@@ -4,6 +4,7 @@ body#work-page{
 }
 
 body#work-page > .container{
+    width: 960px;
     padding-top: 80px;
     padding-bottom: 153px;
 }
@@ -42,6 +43,7 @@ nav#work-navbar > .container .navbar-right > ul.nav > li{
     font-weight: lighter;
     letter-spacing: 2px;
     color: #404041;
+    padding-left:30px;
 }
 nav#work-navbar > .container .navbar-right > ul.nav > li > a{
     vertical-align: middle;

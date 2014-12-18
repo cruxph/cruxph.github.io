@@ -78,6 +78,14 @@
     background-color: transparent;
 }
 
+.nav-hollow-inverse li{
+    margin: 2px 17px;
+}
+.nav-hollow-inverse li.active{
+    margin: 0 15px;
+    border: solid 2px #F7F5F0;
+}
+
 .navbar-inverse li > a:hover  {
     /* color: #404041;
     background-color: #F7F5F0; */
