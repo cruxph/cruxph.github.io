@@ -53,7 +53,7 @@ nav#work-navbar > .container .navbar-right > ul.nav > li > a{
     padding: 0;
     color: #413f42;
 }
-nav#work-navbar > .container .navbar-right > ul.nav > li.active > a{
+nav#work-navbar > .container .navbar-right > ul.nav > li > a:hover{
     padding-bottom: 2px;
     border-bottom: 4px solid #413f42;
     background-color: transparent;
