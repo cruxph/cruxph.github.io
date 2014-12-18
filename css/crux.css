@@ -208,7 +208,7 @@ ul.nav{
 }
 
 .navbar-crux-default{
-    background-color: rgba(64, 64, 66, .5);
+    background-color: rgba(64, 64, 66, 1);
 }
 
 .navbar-inverse .navbar-toggle {
