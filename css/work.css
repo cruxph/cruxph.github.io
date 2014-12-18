@@ -4,7 +4,6 @@ body#work-page{
 }
 
 body#work-page > .container{
-    width: 960px;
     padding-top: 80px;
     padding-bottom: 153px;
 }
@@ -16,6 +15,10 @@ nav#work-navbar {
 
 nav#work-navbar > .container > .navbar-header a > img{
     top: auto;
+}
+
+.navbar-header button{
+    margin-top:20px;
 }
 
 nav#work-navbar > .container > .navbar-header > .navbar-brand{
@@ -33,7 +36,7 @@ nav#work-navbar > .container {
 
 nav#work-navbar > .container .navbar-right > ul.nav{
     padding-right: 0;
-    height: 79px;
+    padding-right:20px;
 }
 nav#work-navbar > .container .navbar-right > ul.nav > li{
     font-size: 24px;
