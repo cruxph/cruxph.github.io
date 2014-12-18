@@ -29,6 +29,7 @@ footer {
     padding: 36px 0;
     position: absolute;
     height: 60px;
+    width: inherit;
     bottom: 0;
 }
 
@@ -45,13 +46,13 @@ footer {
     left: 0;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 960px){
     .footer {
         width: 960px;
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 960px){
     .footer {
         position: static;
         text-align: center;
@@ -82,6 +83,7 @@ ul.social-links li {
     padding: 0;
     -webkit-padding-start: 0;
     margin: 12px 16px;
+
 }
 
 ul.social-links li > a:hover {
@@ -116,30 +118,28 @@ footer, ul.social-links li > a {
     z-index: 10;
 }
 
-.carousel-inner > a.left > span >img{
+.carousel-inner > a.left > span >img,
+.carousel-inner > a.right > span >img{
     z-index: 0;
-    width: 73px;
+    width: 50px;
 }
 
-.carousel-inner > a.left > span{
+.carousel-inner > a.left > span,
+.carousel-inner > a.right > span{
     position: absolute;
     top: 50%;
-    left: 16px;
+}
+
+.carousel-inner > a.left > span {
+    left: 35%;
+}
+
+.carousel-inner > a.right > span {
+    right: 35%;
 }
 
 .carousel-inner > a.right{
     z-index: 10;
-}
-
-.carousel-inner > a.right > span >img{
-    z-index: 0;
-    width: 73px;
-}
-
-.carousel-inner > a.right > span{
-    position: absolute;
-    top: 50%;
-    right: 16px;
 }
 /* 
 * migrated image to img tag
