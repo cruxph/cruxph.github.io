@@ -191,11 +191,17 @@ ul.nav{
     transition: all 0.25s;
 }
 
-
-
-.brand-logo{
-    margin-top: -12px;
+/*for work navbar */
+.active>a{
+    font-size:30px;
+    color:#404040;
 }
+.col-md-4>a{
+    font-size:30px;
+    color:#404040;
+}
+/*end of work navbar*/
+
 
 .navbar-inverse{
     min-height: 72px;
@@ -240,18 +246,13 @@ ul.nav{
 }
 
 .brand-logo {
-    height: 192px;
+    margin-top: -8px;
+    height: 50px;
+    width: 49px;
 }
 
 .brand-logo.nav-scrolled, .brand-logo-small {
     height: 36px;
-}
-
-@media (max-width: 767px){
-    .brand-logo {
-        content: url(/img/crux-sign.png);
-        height: 36px;
-    }
 }
 
 .nav-hollow-inverse li{
@@ -349,6 +350,14 @@ div#about > .container > div.crux-logo-about-container{
     bottom: 0;
 }
 
+.caption h1{
+    font-size: 25px;
+}
+
+.caption p{
+    font-size:13px;
+}
+
 .work-container .col-md-3{
     padding:0;
 }
@@ -374,9 +383,12 @@ nav#work-navbar {
     background-color: #f7f5f0;
 }
 
+<<<<<<< HEAD
 nav#work-navbar > .container > .navbar-header a > img{
     top: auto;
 }
+=======
+>>>>>>> fixed navbar for workpage
 
 nav#work-navbar > .container > .navbar-header > .navbar-brand{
     height: inherit;  
@@ -480,7 +492,14 @@ div.work-page-container > .work-content > div.work-definition > p{
     width: 100%; 
     min-height: 140px;
     margin:0 auto;}
+
+    div.work-page-container{
+    padding-top: 20px;
+    width: 100%;
 }
+}
+
+
 
 
 
@@ -490,11 +509,6 @@ div.work-page-container > .work-content > div.work-definition > p{
         width:100%;}
 }
 /* for 480px or less */
-@media screen and (max-width: 480px) {
- div.work-page-container > .work-content > div.work-definition > p{
-
-  }
-}
 
 /*footer style*/
 
