@@ -131,6 +131,7 @@ ul.nav{
     padding-top: 0;
     padding-bottom: 0;
     vertical-align: middle;
+    height: inherit;
 }
 
 .brand-logo.nav-scrolled, .brand-logo-small {
