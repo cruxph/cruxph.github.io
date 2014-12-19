@@ -10,23 +10,23 @@ body {
     margin-top: 100px;
 }
 
-.footer {
+footer {
     padding: 36px 0;
     position: absolute;
-    height: 60px;
+    
     width: inherit;
     bottom: 0;
 }
 
 
-.footer .social-links {
+footer .social-links {
     position: absolute;
     right: 0;
     bottom: 50%
 
 }
 
-.footer .copyright {
+footer .copyright {
     position: absolute;
     left: 0;
     bottom: 50%;
@@ -36,7 +36,7 @@ body {
     .container {
         width: 960px;
     }
-    .footer {
+    footer {
         width: 960px;
     }
 }
@@ -45,19 +45,19 @@ body {
     .container {
         width: 100%;
     }
-    .footer {
+    footer {
         text-align: center;
         width: inherit;
         margin: 0;
         padding: 0;
     }
 
-    .footer .social-links {
+    footer .social-links {
         display: block;
         position: relative;
     }
 
-    .footer .copyright {
+    footer .copyright {
         position: static;
     }
 }
@@ -81,8 +81,13 @@ ul.social-links li > a:hover {
     text-decoration: none;
 }
 
-footer, ul.social-links li > a {
+.contact, .footer-inverse ul.social-links li > a {
     color: #F7F5F0;
+}
+
+footer.footer-default .social-links li a,
+.footer-default .copyright{
+    color:#413f42;
 }
 
 .gradient-overlay{

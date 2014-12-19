@@ -6,6 +6,8 @@ body#work-page{
 body#work-page > .container{
     padding-top: 80px;
     padding-bottom: 153px;
+    min-height: 100vh; 
+    position: relative;
 }
 
 nav#work-navbar {
@@ -134,30 +136,4 @@ div.work-page-container > .work-content > div.work-definition > p{
     padding-top: 20px;
     width: 100%;
 }
-}
-
-
-
-
-/*footer*/
-footer .social-links li a{
-    color:#413f42;
-}
-.copyright{
-    color:#413f42;
-}
-footer{
-    position: relative;
-    min-height: 20px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-position: bottom center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-    padding-bottom: 60px;
-}    
+}  
