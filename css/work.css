@@ -38,24 +38,36 @@ nav#work-navbar > .container .navbar-right > ul.nav{
     padding-right: 0;
     padding-right:20px;
 }
+
+.navbar-right > ul.nav > li{
+    padding:8px;
+}
+
+.navbar-right > ul.nav > li a{
+    margin:2px 17px;
+}
+
+.navbar-right > ul.nav > li a:hover{
+    margin:0px 7px;
+}
 nav#work-navbar > .container .navbar-right > ul.nav > li{
     font-size: 24px;
     height: 100%;
     text-align: right;
     font-weight: lighter;
     letter-spacing: 2px;
+    line-height: 2;
     color: #404041;
-    padding-left:30px;
+   
 }
 nav#work-navbar > .container .navbar-right > ul.nav > li > a{
-    vertical-align: middle;
     display: inline;
     padding: 0;
     color: #413f42;
 }
 nav#work-navbar > .container .navbar-right > ul.nav > li > a:hover{
-    padding-bottom: 2px;
-    border-bottom: 4px solid #413f42;
+    padding: 8px;
+    border: 2px solid #413f42;
     background-color: transparent;
 }
 div.work-page-container{
