@@ -4,6 +4,7 @@
 
 .carousel-inner {
     position: relative;
+    z-index: 1;
     height: 100vh;
 }
 
@@ -100,7 +101,8 @@
 /* about style */
 
 div#about{
-    background-color: #404042;
+    background-color: #404042 !important;
+    transform: translateZ(0px);
 }
 
 div#about > .container > .crux-logo-about-container{
@@ -154,9 +156,15 @@ div#about > .container > div.crux-logo-about-container{
 /*work.html*/
 .work-container{
     width: 100%;
-    background:#5a5a5b;
     overflow-y: hidden;
     text-align: center;
+    position: fixed;
+    top: 72px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transform: translateZ(-1px);
+    height: 660px;
 }
 
 .image-hover{
@@ -164,8 +172,6 @@ div#about > .container > div.crux-logo-about-container{
     min-height: 179px;
     background-repeat: no-repeat;
 }
-
-
 
 .caption h1,p{
     padding-top:2px;

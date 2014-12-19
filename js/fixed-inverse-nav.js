@@ -1,7 +1,8 @@
 $(document).ready(function(){
   $(window).scroll(function(){
     var brand = $('.brand-logo');
-    if ($(window).scrollTop() > ($('.work-container').offset().top - 146)) {
+    var treshold = ($('.item.active').offset().top + $('.item.active').outerHeight(true) - 100)
+    if ($(window).scrollTop() > treshold ) {
       if (!brand.hasClass('nav-scrolled')){
         //brand.fadeOut();
         brand.attr('src', '/img/crux-sign.png');
@@ -10,7 +11,7 @@ $(document).ready(function(){
         $('.navbar').addClass('navbar-crux-default').find('.container').css('padding-top', '8px');;
       }
     } 
-    else if ($(window).scrollTop() < ($('.work-container').offset().top - 146)) {
+    else if ($(window).scrollTop() < treshold) {
       brand.attr('src', '/img/crux-logo.png');
       brand.fadeIn();
       brand.removeClass('nav-scrolled');
