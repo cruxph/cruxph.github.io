@@ -60,8 +60,14 @@ nav#work-navbar > .container .navbar-right > ul.nav > li{
     letter-spacing: 2px;
     line-height: 2;
     color: #404041;
-   
+    margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    nav#work-navbar > .container .navbar-right > ul.nav > li{
+    margin-top:0px;}
+}
+
 nav#work-navbar > .container .navbar-right > ul.nav > li > a{
     display: inline;
     padding: 0;
