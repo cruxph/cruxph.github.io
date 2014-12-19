@@ -217,6 +217,10 @@ div#about > .container > div.crux-logo-about-container{
     .caption p{
         font-size: 11px
     }
+
+    div.crux-logo-about-container{
+        text-align: center;
+    }
 }
 
 /* for 768px or less */
@@ -271,7 +275,7 @@ div#about > .container > div.crux-logo-about-container{
     }
 }
 
-footer {
+.contact {
     position: relative;
     min-height: 534px;
     top: 0;
