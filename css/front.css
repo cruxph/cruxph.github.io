@@ -259,7 +259,7 @@ div#about > .container > div.crux-logo-about-container{
     .work-container .image-hover{
         width: 100%;
         float: left;
-        min-height: 150px;
+        min-height: 180px;
     }
 
 
@@ -267,7 +267,7 @@ div#about > .container > div.crux-logo-about-container{
         font-size:30px;
     }
     .caption p{
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
