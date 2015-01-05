@@ -209,6 +209,7 @@ div#about > .container > div.crux-logo-about-container{
     position: relative;
     height: calc((100vh - 72px)/3);
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 /* for 992px or less */
