@@ -2,6 +2,12 @@
     cursor: pointer;
 }
 
+div#gap{
+    background:transparent;
+    height: calc(100vh + 100px);
+    z-index: -2;
+}
+
 .carousel-inner {
     position: relative;
     z-index: 1;
@@ -158,6 +164,7 @@ div#about > .container > div.crux-logo-about-container{
 .work-container{
     width: 100%;
     overflow-y: hidden;
+    overflow-x: hidden;
     text-align: center;
     position: fixed;
     top: 72px;
@@ -165,7 +172,7 @@ div#about > .container > div.crux-logo-about-container{
     right: 0;
     width: 100%;
     transform: translateZ(-1px);
-    height: 660px;
+    height: 100vh;
 }
 
 .image-hover{
@@ -285,6 +292,7 @@ div#about > .container > div.crux-logo-about-container{
 .contact {
     position: relative;
     min-height: 534px;
+    width: 100%;
     top: 0;
     left: 0;
     right: 0;
