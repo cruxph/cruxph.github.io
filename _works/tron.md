@@ -1,8 +1,8 @@
 ---
-title: Tron (Personal)
+title: Light King
 layout: work
 feature_image: /img/works/tron-personal/3.jpg
-description:
+description: Photo Manipulation
 images:
     - /img/works/tron-personal/3.jpg
 ---
