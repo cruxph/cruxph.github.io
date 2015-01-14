@@ -2,7 +2,7 @@
 title: Botoy's Lechon Manok 
 layout: work
 feature_image: /img/works/botoy-lechon-manok/botoy-01.png
-description: Identity
+description: Video Profile
 images:
     - /img/works/botoy-lechon-manok/botoy-01.png
     - /img/works/botoy-lechon-manok/botoy-02.png
