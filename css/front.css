@@ -23,12 +23,19 @@ div#gap{
     height: 100vh;
 }
 
-.carousel-inner .item{
-    height: inherit;
+.carousel-inner .item > *{
+    
+    height: 100vh;
+    width: 100vw;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #404042;
+}
+
+.videocontent {
+    height: 100%;
+    width: 100%;
 }
 
 .carousel-inner > a.left{
