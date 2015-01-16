@@ -1,5 +1,5 @@
 ---
-title: Sloth (Personal)
+title: Off to battle
 layout: work
 feature_image: /img/works/sloth-personal/preview.jpg
 description: Photo Manipulation
