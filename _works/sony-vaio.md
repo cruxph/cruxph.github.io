@@ -1,7 +1,7 @@
 ---
 title: Sony VAIO
 layout: work
-feature_image: /img/works/Sony-VAIO/sony-vaio-01.png
+feature_image: /img/works/Sony-VAIO/preview.jpg
 description: Motion Graphics
 images:
     - /img/works/Sony-VAIO/sony-vaio-01.png

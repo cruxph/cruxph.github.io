@@ -1,7 +1,7 @@
 ---
 title: Aestrea Rebrand
 layout: work
-feature_image: /img/works/aestrea-rebrand/aestrea-1.jpg
+feature_image: /img/works/aestrea-rebrand/preview.jpg
 description: Identity
 images:
     - /img/works/aestrea-rebrand/aestrea-1.jpg

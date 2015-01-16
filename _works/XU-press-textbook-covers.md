@@ -1,7 +1,7 @@
 ---
 title: XU Press Textbook Covers
 layout: work
-feature_image: /img/works/XU-press-textbook-covers/PBOOK001.png
+feature_image: /img/works/XU-press-textbook-covers/preview.jpg
 description: Print Design
 images:
     - /img/works/XU-press-textbook-covers/PBOOK001.png
