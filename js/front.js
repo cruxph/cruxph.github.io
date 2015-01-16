@@ -32,7 +32,7 @@
 
 $(document).ready(function(){
     function customPlayback(){
-        if ($('#vid').is(":in-viewport(72)")) {
+        if ($('#vid').is(":in-viewport(200)")) {
             console.log("Video in viewport. Playing video.")
             player.playVideo();
         } else if (player.getPlayerState()==1){

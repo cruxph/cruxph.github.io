@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $(window).scroll(function(){
     var brand = $('.brand-logo');
-    var treshold = ($('.item.active').offset().top + $('.item.active').outerHeight(true) - 72)
+    var treshold = ($('.item.active').offset().top + $('#gap').offset().top - 100)
     if ($(window).scrollTop() > treshold ) {
       if (!brand.hasClass('nav-scrolled')){
         //brand.fadeOut();
