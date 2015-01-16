@@ -8,6 +8,15 @@ div#gap{
     z-index: -2;
 }
 
+.caption-content{
+    position: relative;
+}
+
+.caption-content .work-description{
+    position: absolute;
+    bottom: 0;
+}
+
 .carousel-inner {
     position: relative;
     z-index: 1;
