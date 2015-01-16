@@ -11,15 +11,14 @@
       function onYouTubeIframeAPIReady() {
         console.log('IFrame API ready')
         player = new YT.Player('vid', {
-          height: '720',
-          width: '1280',
+          width: '100%',
           videoId: 'DfhwTkQ6oYw',
           playerVars:{
             controls: 0,
             modestBranding: 0,
             loop: 1,
             rel: 0,
-            info: 0
+            info: 0 
           },
           events: {
             'onReady': onPlayerReady
