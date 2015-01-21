@@ -10,4 +10,4 @@ images:
 ---
 
 Animated profiles for the Sony Vaio E Series.
-<br>Design and animation by [Josan Astrid Dometita](http://instagram.com/josanastrid).
+<br>Design and animation by <br>[Josan Astrid Dometita](http://instagram.com/josanastrid).
