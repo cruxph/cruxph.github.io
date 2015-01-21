@@ -11,4 +11,4 @@ images:
 ---
 Branding for the first TEDx event in Cebu City happening at the University of San Carlos on August 21, 2014. Effectively communicating the theme of the event, The Butterfly Effect.
 
-Design by [Karl Aguro](behance.net/iolak)
+Design by [Karl Aguro](https://www.behance.net/iolak)
