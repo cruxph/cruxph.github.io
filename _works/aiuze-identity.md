@@ -9,3 +9,4 @@ images:
     - /img/works/aiuze-identity/aiuze-04.jpg
     - /img/works/aiuze-identity/aiuze-06.jpg
 ---
+Identity design for Aiuze - a holdings company. 
