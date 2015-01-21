@@ -9,4 +9,4 @@ images:
     - /img/works/aestrea-rebrand/aestrea-3.jpg
 ---
 
-Tasked to do a refurbishing of the current logo of Aestrea, a software development company, Crux came up with this design. Full study on [Behance](https://www.behance.net/gallery/18254695/Aestrea-Logo-Design-Process)
+Tasked to do a refurbishing of the current logo of Aestrea, a software development company, Crux came up with this design. Full study on [Behance](https://www.behance.net/gallery/18254695/Aestrea-Logo-Design-Process).
