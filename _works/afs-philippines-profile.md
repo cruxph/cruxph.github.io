@@ -10,7 +10,7 @@ images:
     - /img/works/AFS-philippines-profile/afs-04.png
     - /img/works/AFS-philippines-profile/afs-05.png
 ---
-AFS is an international, volunteer-based, non-profit, non-governmental, non-religious organization that provides intercultural learning opportunities to help people develop the knowledge, skills and understanding needed to create a more just and peaceful world.
+[AFS](http://www.afs.ph/) is an international, volunteer-based, non-profit, non-governmental, non-religious organization that provides intercultural learning opportunities to help people develop the knowledge, skills and understanding needed to create a more just and peaceful world.
 
 Crux produced this 5 minute treat that takes us through the years and around the world with AFS. 
 
