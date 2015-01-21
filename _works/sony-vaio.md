@@ -8,3 +8,6 @@ images:
     - /img/works/Sony-VAIO/sony-vaio-02.png
     - /img/works/Sony-VAIO/sony-vaio-03.png
 ---
+
+An animated profile for the Sony Vaio E Series. 
+<br>Design and animation by [Josan Astrid Dometita](http://instagram.com/josanastrid)
