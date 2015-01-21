@@ -7,3 +7,5 @@ images:
     - /img/works/robo-film/robo-01.png
     - /img/works/robo-film/robo-02.png
 ---
+A documentary on Cagayan de Oro, Basketball, and Politics.
+Direction / Motion Graphics / Design by Joey Sendaydiego
