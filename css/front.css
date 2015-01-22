@@ -132,18 +132,14 @@ div#gap{
 
 div#about{
     background-color: #000 !important;
-    background-image: url(/img/about-image.jpg);
+    background-image: url(/img/about-image-hd.jpg);
     height: 100vh;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateZ(0px);
 }
-@media (min-width: 2000px){
-    div#about{
-        background-image: url(/img/about-image-hd.jpg);
-    }
-}
+
 
 div#about > .about-text-container {
     margin-right: 15px;
