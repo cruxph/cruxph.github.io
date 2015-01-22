@@ -131,55 +131,44 @@ div#gap{
 /* about style */
 
 div#about{
-    background-color: #404042 !important;
+    background-color: #000 !important;
+    background-image: url(/img/about-image.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     transform: translateZ(0px);
 }
-
-div#about > .container > .crux-logo-about-container{
-    padding: 0;
+@media (min-width: 2000px){
+    div#about{
+        background-image: url(/img/about-image-hd.jpg);
+    }
 }
 
-div#about > .container > .crux-logo-about-container >.crux-logo-about{
-    width: 298px;
-}
-
-div#about > .container > .about-text-container {
-    padding-left: 5px;
-    padding-right: 5px;
+div#about > .about-text-container {
+    margin-right: 15px;
+    padding-left: 0;
+    float: right;
     color: white;
 }
 
-div#about > .container{
-    padding-top: 105px;
+div#about{
+    padding-top: 45vh;
     padding-bottom: 180px;
 }
 
-div#about > .container > .about-text-container > .about-text{
-    font-size: 21px;
+div#about > .about-text-container > .about-text{
+    font-size: 16px;
     margin-top: 30px;
 }
 
-div#about > .container > .about-text-container > h1{
-    font-family: "bebas-neue", sans-serif;
-}
-
-div#about > .container > .about-text-container > h1#about-caption-first-line{
-    font-size: 69px;
-    margin-top: 18px;
+div#about > .about-text-container > p.about-text-note{
     margin-bottom: 0px;
+    font-size: 14px;
 }
 
-div#about > .container > .about-text-container > h1#about-caption-second-line{
-    font-size: 75px;
-    margin-top: 0px;
-    margin-bottom: 41px;
-}
 
-div#about > .container > .about-text-container > p.about-text-note{
-    margin-bottom: 0px;
-}
-
-div#about > .container > div.crux-logo-about-container{
+div#about > div.crux-logo-about-container{
     line-height: 553px;
 }
 
@@ -305,7 +294,7 @@ div#about > .container > div.crux-logo-about-container{
 
 .contact {
     position: relative;
-    min-height: 534px;
+    height: 100vh;
     width: 100%;
     top: 0;
     left: 0;
@@ -314,8 +303,5 @@ div#about > .container > div.crux-logo-about-container{
     background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
     padding-bottom: 60px;
 }

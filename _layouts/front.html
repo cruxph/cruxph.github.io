@@ -3,6 +3,8 @@
 <head>
     {% include boilerplate-head.html %}
     <link rel="stylesheet" type="text/css" href="{{ "/css/front.css" | prepend: site.baseurl }}">
+    <script src="{{ "/js/fixed-inverse-nav.js" | prepend: site.baseurl }}"></script>
+    <script type="application/javascript" src="/js/crux.js"></script>
     <script src="{{ "/js/front.js" | prepend: site.baseurl }}" type="text/javascript"></script>
     <script src="{{ "/js/isInViewport.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 </head>
@@ -11,8 +13,6 @@
     {% include front/nav.html %}
     {{ content }}
     {% include front/footer.html %}
-    <script src="{{ "/js/fixed-inverse-nav.js" | prepend: site.baseurl }}"></script>
-    <script type="application/javascript" src="/js/crux.js"></script>
   </body>
 
 </html>
