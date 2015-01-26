@@ -21,3 +21,6 @@ collections:
     works:
         output: true
         permalink: /works/:name/
+
+sass:
+  style: :compressed
