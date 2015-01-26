@@ -9,6 +9,8 @@ images:
     - /img/works/AFS-philippines-profile/afs-03.png
     - /img/works/AFS-philippines-profile/afs-04.png
     - /img/works/AFS-philippines-profile/afs-05.png
+videos:
+    - https://www.youtube.com/embed/D0roiSM7P2c
 ---
 [AFS](http://www.afs.ph/) is an international, volunteer-based, non-profit, non-governmental, non-religious organization that provides intercultural learning opportunities to help people develop the knowledge, skills and understanding needed to create a more just and peaceful world.
 

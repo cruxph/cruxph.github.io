@@ -124,14 +124,14 @@ div.work-page-container > .work-images{
     padding-left: 7px;
 }
 
-div.work-page-container > .work-images > img{
+div.work-page-container > .work-images > .work-item {
     width: 620px;
     margin:0 auto;
     float:right;
     padding-right:0;
 }
 
-div.work-page-container > .work-images > img:not(:first-of-type){
+div.work-page-container > .work-images > .work-item:not(:first-of-type){
     margin-top: 60px;
 }
 

@@ -7,6 +7,9 @@ images:
     - /img/works/Sony-VAIO/sony-vaio-01.png
     - /img/works/Sony-VAIO/sony-vaio-02.png
     - /img/works/Sony-VAIO/sony-vaio-03.png
+videos:
+    - https://www.youtube.com/embed/nk_nu0WfGQQ
+    - https://www.youtube.com/embed/lXmBJPT1XQI
 ---
 
 Animated profiles for the Sony Vaio E Series.
