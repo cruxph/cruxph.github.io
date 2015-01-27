@@ -3,6 +3,7 @@ title: Midnight Marauder
 layout: work
 feature_image: /img/works/sloth-personal/preview.jpg
 description: Photo Manipulation
+og_type: article
 images:
     - /img/works/sloth-personal/fortumblrfrancisavellana.jpg
 ---

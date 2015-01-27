@@ -3,6 +3,7 @@ title: From Below
 layout: work
 feature_image: /img/works/toilet-personal/preview.jpg
 description: Photo Manipulation
+og_type: article
 images:
     - /img/works/toilet-personal/toilet_finaldirty2.jpg
 ---

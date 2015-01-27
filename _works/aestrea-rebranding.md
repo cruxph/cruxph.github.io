@@ -3,6 +3,7 @@ title: Aestrea Rebrand
 layout: work
 feature_image: /img/works/aestrea-rebrand/preview.jpg
 description: Identity
+og_type: article
 images:
     - /img/works/aestrea-rebrand/aestrea-1.jpg
     - /img/works/aestrea-rebrand/aestrea-2.jpg

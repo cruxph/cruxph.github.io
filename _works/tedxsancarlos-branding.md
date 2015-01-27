@@ -3,6 +3,7 @@ title: TEDx San Carlos Branding
 layout: work
 feature_image: /img/works/TEDxSanCarlos-Branding/preview.jpg
 description: Branding
+og_type: article
 images:
     - /img/works/TEDxSanCarlos-Branding/tedx-01.png
     - /img/works/TEDxSanCarlos-Branding/tedx-02.png
