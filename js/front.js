@@ -19,6 +19,16 @@ $(document).ready(function(){
     }
   });
 });
+$("[rel='tooltip']").tooltip();    
+
+$('.image-hover').hover(
+    function(){
+        $(this).find('.caption').show();
+    },
+    function(){
+        $(this).find('.caption').hide();
+    }
+);
 
 $(function(){
   $(document).on('click','#about-nav', function(event){
@@ -44,9 +54,7 @@ $(function(){
       tag.src = "https://www.youtube.com/iframe_api";
       var firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
+      
       var player;
       function onYouTubeIframeAPIReady() {
         console.log('IFrame API ready')
