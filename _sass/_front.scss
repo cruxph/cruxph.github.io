@@ -132,25 +132,33 @@ div#gap{
 
 div#about{
     background-color: #000 !important;
-    background-image: url(/img/about-image-hd.jpg);
-    height: 100vh;
+    background-image: url(/img/about-bg.png);
+    min-height: calc(100vh - 72px);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateZ(0px);
 }
 
+div#about img {
+    height: calc(100vh - 72px);
+    width: auto;
+    padding: 10px inherit;
+}
 
-div#about > .about-text-container {
-    margin-right: 15px;
-    padding-left: 0;
-    float: right;
+
+div#about .about-text-container {
+
+    margin: inherit;
     color: white;
 }
 
-div#about{
-    padding-top: 45vh;
-    padding-bottom: 180px;
+@media (min-width: 992px){
+
+    div#about .about-text-container {
+        margin-top: 45vh;
+        color: white;
+    }
 }
 
 div#about > .about-text-container > .about-text{

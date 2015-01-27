@@ -33,7 +33,7 @@ $('.image-hover').hover(
 $(function(){
   $(document).on('click','#about-nav', function(event){
     event.preventDefault();
-    $('html, body').animate({scrollTop:$('#about').position().top - 45}, 'easeInOutExpo');
+    $('html, body').animate({scrollTop:$('#about').position().top - 72}, 'easeInOutExpo');
   });
   $(document).on('click','#work-nav', function(event){
     event.preventDefault();
