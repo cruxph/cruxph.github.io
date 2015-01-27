@@ -1,7 +1,7 @@
 ---
 title: Aiuze Identity
 layout: work
-feature_image: /img/works/aiuze-identity/aiuze-02.jpg
+feature_image: /img/works/aiuze-identity/preview.jpg
 description: Identity
 og_type: article
 images:
