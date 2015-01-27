@@ -12,9 +12,9 @@ images:
 videos:
     - https://www.youtube.com/embed/D0roiSM7P2c
 ---
-[AFS](http://www.afs.ph/) is an international, volunteer-based, non-profit, non-governmental, non-religious organization that provides intercultural learning opportunities to help people develop the knowledge, skills and understanding needed to create a more just and peaceful world.
+<a href="http://www.afs.ph/" target="_blank">AFS</a> is an international, volunteer-based, non-profit, non-governmental, non-religious organization that provides intercultural learning opportunities to help people develop the knowledge, skills and understanding needed to create a more just and peaceful world.
 
 Crux produced this 5 minute treat that takes us through the years and around the world with AFS. 
 
-Director: [Joey Sendaydiego](https://vimeo.com/japsendaydiego)
-<br>Producer: [Tina Abesamis](https://vimeo.com/tinaabesamis)
+Director: <a href="https://vimeo.com/japsendaydiego" target="_blank">Joey Sendaydiego</a>
+<br>Producer: <a href="https://vimeo.com/tinaabesamis" target="_blank">Tina Abesamis</a>

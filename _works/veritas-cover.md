@@ -7,4 +7,4 @@ images:
     - /img/works/veritas-cover/finalv2.jpg
 ---
 Cover page for TheCrusader publication's literary and art folio -- Veritas.
-<br>Design by [Francis Ryan Avellana](https://www.behance.net/francisavellana).
+<br>Design by <a href="https://www.behance.net/francisavellana" target="_blank">Francis Ryan Avellana</a>.

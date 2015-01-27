@@ -11,4 +11,4 @@ videos:
 ---
 A documentary on Cagayan de Oro, Basketball, and Politics.
 
-Direction / Motion Graphics / Design by [Joey Sendaydiego](https://vimeo.com/japsendaydiego)
+Direction / Motion Graphics / Design by <a href="https://vimeo.com/japsendaydiego" target="_blank">Joey Sendaydiego</a>
