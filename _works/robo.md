@@ -1,7 +1,7 @@
 ---
 title: Robo Film
 layout: work
-feature_image: /img/works/robo-film/robo-01.png
+feature_image: /img/works/robo-film/preview.jpg
 description: Documentary Film
 og_type: article
 images:
