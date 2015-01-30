@@ -146,20 +146,22 @@ div#about{
 div#about img {
     height: calc(100vh - 72px);
     width: auto;
-    padding: 40px inherit;
+    padding: 50px inherit;
+    margin-left: -150px;
 }
 
 
 div#about .about-text-container {
-
+    float: right;
     margin: inherit;
     color: white;
+    padding-left: 0;
 }
 
 @media (min-width: 992px){
 
     div#about .about-text-container {
-        margin-top: 45vh;
+        margin-top: 20vh;
         color: white;
     }
 }
@@ -167,6 +169,7 @@ div#about .about-text-container {
 div#about > .about-text-container > .about-text{
     font-size: 16px;
     margin-top: 30px;
+    padding-left: 0;
 }
 
 div#about > .about-text-container > p.about-text-note{
