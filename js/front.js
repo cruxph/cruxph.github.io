@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $(window).scroll(function(){
     var brand = $('.brand-logo');
-    var treshold = ($('.carousel-inner').outerHeight()-100);
+    var treshold = ($('.item.active').offset().top + $('#gap').offset().top - 100)
     if ($(window).scrollTop() > treshold ) {
       if (!brand.hasClass('nav-scrolled')){
         //brand.fadeOut();
@@ -33,16 +33,15 @@ $('.image-hover').hover(
 $(function(){
   $(document).on('click','#about-nav', function(event){
     event.preventDefault();
-    $('html, body').animate({scrollTop:($('.carousel-inner').outerHeight() + $('.work-container').outerHeight() - 72)}, 'easeInOutExpo');
+    $('html, body').animate({scrollTop:$('#about').position().top - 72}, 'easeInOutExpo');
   });
   $(document).on('click','#work-nav', function(event){
     event.preventDefault();
-    $('html, body').animate({scrollTop:($('.carousel-inner').outerHeight() - 72)}, 'slow');
+    $('html, body').animate({scrollTop:($('.item.active').offset().top + $('#gap').offset().top - 72)}, 'slow');
   });
   $(document).on('click','#contact-nav', function(event){
     event.preventDefault();
-    console.log($('#contact').position().top)
-    $('html, body').animate({scrollTop:($('.carousel-inner').outerHeight() + $('.work-container').outerHeight() + $('#about').outerHeight())}, 'slow');
+    $('html, body').animate({scrollTop:$('#contact').position().top}, 'slow');
   });
   $(document).on('click','#home-nav', function(event){
     event.preventDefault();
