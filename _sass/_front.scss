@@ -131,7 +131,7 @@ div#gap{
 
 /* about style */
 
-div#about{
+#about{
     background-color: #000 !important;
     background-image: url(/img/about-bg.png);
     min-height: calc(100vh - 72px);
@@ -141,6 +141,7 @@ div#about{
     transform: translateZ(0px);
     position: relative;
     z-index: 10;
+    padding: 50px;
 }
 
 div#about img {
@@ -178,6 +179,15 @@ div#about > .about-text-container > p.about-text-note{
 div#about > div.crux-logo-about-container{
     line-height: 553px;
 }
+
+#about .about-calligraphy{
+    background-image: url(/img/about-calligraphy.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 /*work.html*/
 .work-container{
