@@ -1,14 +1,12 @@
 ---
-layout: front
+layout: default
 title: Crux Design Studio
 description: Made up of a young and talented roster of graphic artists, illustrators, photographers, and filmmakers, we look to share fresh ideas and produce materials to help forward your brand, mission and lifestyle.
 feature_image: /img/about-bg.jpg
 og_type: website
 ---
-
 {% include front/nav.html %}
 {% include front/carousel.html %}
-
 {% include front/work.html %}
 
 <div id="gap"></div>
@@ -18,3 +16,16 @@ og_type: website
 <div style="position: relative" data-stellar-offset-parent="true">
     {% include front/footer.html %}
 </div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.stellar({
+            horizontalScrolling: false,
+            scrollProperty: 'scroll',
+            positionProperty: 'position',
+            responsive: true,
+            hideDistantElements: false,
+            horizontalOffset: 0,
+            verticalOffset: 0
+        });
+    });
+</script>
