@@ -185,8 +185,9 @@ div#about > div.crux-logo-about-container{
     overflow-y: hidden;
     overflow-x: hidden;
     text-align: center;
-    position: relative;
+    position: fixed;
     z-index: 1;
+    top: 72px;
     left: 0;
     right: 0;
     width: 100%;
