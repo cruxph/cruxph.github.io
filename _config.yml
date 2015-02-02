@@ -14,8 +14,6 @@ markdown: kramdown
 
 #Collections
 collections:
-    carousel_contents:
-        output: true
     works:
         output: true
         permalink: /works/:name/
