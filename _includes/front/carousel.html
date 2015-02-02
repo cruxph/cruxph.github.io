@@ -1,16 +1,17 @@
 <div id="home" class="carousel slide" data-interval="" data-stellar-ratio="1">
     <div class="carousel-inner">
-        {% for item in site.carousel_contents %}
+        {% for item in site.data.carousel_contents %}
             <div class="item {% if forloop.first %} active{% endif %}">
-                {% if item.type == 'image' %}
-                    <img src="{{ item.data | prepend: site.baseurl }}"/>
-
-                {% else %}
-                    <div class="video-container">
-                        <div id="vid">
+                {% case item.type %}
+                    {% when 'image' %}
+                        <img src="{{ item.content }}"/>
+                    {% when 'youtube-video' %}
+                        <div class="video-container">
+                            <iframe class="video-content" id="{{ item.slug }}"
+                                src="{{ item.content }}?enablejsapi=1&loop=1&controls=0&rel=0&info=0" 
+                                width="100%" height="100%"></iframe>
                         </div>
-                    </div>
-                {% endif %}
+                {% endcase %}
             </div>
         {% endfor %}
         <div class="gradient-overlay">

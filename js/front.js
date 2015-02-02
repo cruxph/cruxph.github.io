@@ -49,38 +49,35 @@ $(function(){
   });
 });
 
-   var tag = document.createElement('script');
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('vid', {
-          width: '100%',
-          videoId: 'DfhwTkQ6oYw',
-          playerVars:{
-            origin: 'http://crux.ph',
-            controls: 0,
-            modestBranding: 0,
-            loop: 1,
-            rel: 0,
-            info: 0
-          }
-        });
-      }
+//Load YouTube iframe API
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var ytVideos = [];
+function onYouTubeIframeAPIReady() {
+  //collect YouTube videos
+  $('.video-content').each(function(index, video){
+    ytVideos.push({
+      video_id: $(video).attr('id'),
+      player: new YT.Player(video)
+    });
+  });
+}
 
 $(document).ready(function(){
     function customPlayback(){
-        if ($('#vid').is(":in-viewport(200)")) {
-            player.playVideo();
-        } else if (player.getPlayerState()==1){
-            player.pauseVideo();
-        }
+        $.each(ytVideos, function(index, video){
+          if ($('#'+video.video_id).is(":in-viewport(200)")){
+            video.player.playVideo();
+          } else if (video.player.getPlayerState()==1){
+            video.player.pauseVideo();
+          }
+        });
     }
 
     $(window).scroll(customPlayback);
-
     $('.carousel').on('slid.bs.carousel', function(){
         customPlayback();
     });

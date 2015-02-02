@@ -1,0 +1,19 @@
+- slug: peta
+  content: /img/carousel-image.jpg
+  type: image
+
+- slug: mindanaw-tribal-school
+  content: http://www.youtube.com/embed/04C86cQ23Ug
+  type: youtube-video
+
+- slug: sony-vaio
+  content: http://www.youtube.com/embed/DfhwTkQ6oYw
+  type: youtube-video
+
+- slug: next-notebook-sony-vaio
+  content: http://www.youtube.com/embed/nk_nu0WfGQQ
+  type: youtube-video
+
+- slug: afs-philippines
+  content: http://www.youtube.com/embed/D0roiSM7P2c
+  type: youtube-video
