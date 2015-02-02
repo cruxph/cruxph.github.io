@@ -33,7 +33,7 @@ $('.image-hover').hover(
 $(function(){
   $(document).on('click','#about-nav', function(event){
     event.preventDefault();
-    $('html, body').animate({scrollTop:($('.carousel-inner').outerHeight() + $('#gap').outerHeight() - 72)}, 'easeInOutExpo');
+    $('html, body').animate({scrollTop:($('#about').offset().top - 72)}, 'easeInOutExpo');
   });
   $(document).on('click','#work-nav', function(event){
     event.preventDefault();
@@ -41,8 +41,7 @@ $(function(){
   });
   $(document).on('click','#contact-nav', function(event){
     event.preventDefault();
-    console.log($('#contact').position().top)
-    $('html, body').animate({scrollTop:($('.carousel-inner').outerHeight() + $('#gap').outerHeight() + $('#about').outerHeight())}, 'slow');
+    $('html, body').animate({scrollTop:($('#about').outerHeight() + $('#about').offset().top)}, 'slow');
   });
   $(document).on('click','#home-nav', function(event){
     event.preventDefault();
