@@ -50,14 +50,12 @@ $(function(){
 });
 
    var tag = document.createElement('script');
-    console.log('HERE')
       tag.src = "https://www.youtube.com/iframe_api";
       var firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
       
       var player;
       function onYouTubeIframeAPIReady() {
-        console.log('IFrame API ready')
         player = new YT.Player('vid', {
           width: '100%',
           videoId: 'DfhwTkQ6oYw',
@@ -67,24 +65,15 @@ $(function(){
             loop: 1,
             rel: 0,
             info: 0
-          },
-          events: {
-            'onReady': onPlayerReady
           }
         });
-      }
-
-      function onPlayerReady(event) {
-        console.log("Player ready");
       }
 
 $(document).ready(function(){
     function customPlayback(){
         if ($('#vid').is(":in-viewport(200)")) {
-            console.log("Video in viewport. Playing video.")
             player.playVideo();
         } else if (player.getPlayerState()==1){
-            console.log("Video NOT in viewport. Pausing video.")
             player.pauseVideo();
         }
     }
@@ -92,7 +81,6 @@ $(document).ready(function(){
     $(window).scroll(customPlayback);
 
     $('.carousel').on('slid.bs.carousel', function(){
-        console.log("WE SLID!")
         customPlayback();
     });
 
