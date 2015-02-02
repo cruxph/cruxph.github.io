@@ -60,6 +60,7 @@ $(function(){
           width: '100%',
           videoId: 'DfhwTkQ6oYw',
           playerVars:{
+            origin: 'http://crux.ph',
             controls: 0,
             modestBranding: 0,
             loop: 1,
