@@ -7,7 +7,7 @@ body {
 }
 
 .address {
-    margin-top: 40vh;
+    margin-top: 35vh;
 }
 
 footer {
@@ -18,12 +18,29 @@ footer {
     bottom: 0;
 }
 
+ul.social-links {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
 
-footer .social-links {
-    position: absolute;
-    right: 0;
-    bottom: 50%
+ul.social-links > li{
+    margin-left: 10px;
+    float: left;
+}
 
+
+ul.social-links > li:first-of-type{
+    margin-left: 0;
+}
+
+ul.social-links > li > a {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url('/img/social-media-icons.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 footer .copyright {
@@ -60,25 +77,6 @@ footer .copyright {
     footer .copyright {
         position: static;
     }
-}
-
-ul.social-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-ul.social-links li {
-    display: inline;
-    padding: 0;
-    -webkit-padding-start: 0;
-    margin: 12px 16px;
-    padding-top: 50%;
-
-}
-
-ul.social-links li > a:hover {
-    text-decoration: none;
 }
 
 .contact, .footer-inverse ul.social-links li > a {

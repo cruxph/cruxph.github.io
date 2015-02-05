@@ -9,8 +9,19 @@
         Makati City<br>
         1200<br>
       </address>
+        
       <address>
         (632) 551 6169
+      </address>
+
+      <address>
+        <ul class="social-links">
+            {% for media in site.data.social-media %}
+              <li>
+                <a href="{{ media.url }}" class="social-link" style="background-position-x: {{ media.image-offset }}" target="_blank"></a>
+              </li>
+            {% endfor %}
+        </ul>
       </address>
       
     </div>
