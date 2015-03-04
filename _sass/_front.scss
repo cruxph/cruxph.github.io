@@ -79,34 +79,60 @@
 }
 
 .navbar-inverse{
-    min-height: 72px;
     border-width: 0;
-    padding: 8px 0;
-    background-color: transparent;
+    background-color: #1D1D1E;
     margin-bottom: 0;
     color: #F7F5F0;
     transition: all 0.5s;
-}
-
-.navbar-crux-default{
-    background-color: rgba(64, 64, 66, 1);
-}
-
-.navbar-inverse .navbar-header {
-    vertical-align: center;
-}
-
-.navbar-inverse .navbar-toggle {
-    border: solid 4px #F7F5F0;
-    border-radius: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    .navbar-header{
+        .navbar-brand{
+            img{
+                transition: all 0.5s;
+                height: 136px;
+            }
+        }
+    }
+    #nav-links {
+        .navbar-left{
+            ul.nav>li>a{
+                height: 152px;
+                padding: 60px 0 0;
+                margin: -8px 16px;
+                opacity: 0.5;
+                &:hover{
+                    border-bottom: solid 6px #F7F5F0;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    &.navbar-crux-default{
+        .navbar-header{
+            .navbar-brand{
+                .nav-logo{
+                    height: 72px;
+                    margin: -8px;
+                }
+                &.nav-scrolled{
+                    padding:0;
+                }
+            }
+        }
+        #nav-links {
+            .navbar-left{
+                ul.nav>li>a{
+                    height: 72px;
+                    padding: 28px 0 0;
+                }
+            }
+        }
+    }
 }
 
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse li > a  {
-    font-size: 24px;
-    letter-spacing: 2px;
+    font-size: 14px;
+    letter-spacing: 1px;
     color: #F7F5F0;
     padding: 8px;
 }
@@ -114,19 +140,6 @@
 .nav > li > a:focus {
     text-decoration: none;
     background-color: transparent;
-}
-
-.nav-hollow-inverse li{
-    margin: 2px 17px;
-}
-.nav-hollow-inverse li.active{
-    margin: 0 15px;
-    border: solid 2px #F7F5F0;
-}
-
-.navbar-inverse li:hover  {
-    margin: 0 15px;
-    border: solid 2px #F7F5F0;
 }
 
 /* about style */
