@@ -1,3 +1,10 @@
+/* Global Declaration */
+.text-center {
+    text-align: center;
+}
+
+
+
 #home-nav{
     cursor: pointer;
 }
@@ -149,6 +156,18 @@
     position: relative;
     z-index: 3;
     height: 100vh;
+
+    .content-container{
+        padding-top: 25%;
+        color: #fff;
+        h1 {
+            font-family: "bebas-neue", sans-serif;
+            font-size: 70px;
+        }
+        p {
+            font-size: 19px;
+        }
+    }
 }
 
 /* about style */
