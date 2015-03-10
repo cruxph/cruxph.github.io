@@ -10,57 +10,46 @@ body#work-page > .container{
     position: relative;
 }
 
-nav#work-navbar {
-    border-bottom: 1px solid #413f42;
-    background-color: #f7f5f0;
-}
-
-nav#work-navbar > .container > .navbar-header a > img{
-    top: auto;
-}
-
-.navbar-header button{
-    margin-top:20px;
-}
-
-nav#work-navbar > .container > .navbar-header > .navbar-brand{
-    height: inherit;  
-    padding-top: 0;
-    padding-bottom: 0; 
-    line-height: 79px;
-}
-
-nav#work-navbar > .container {
-    padding-top: 0;
-    line-height: 79px;
-    padding-bottom: 0;
-}
-
-nav#work-navbar > .container .navbar-right > ul.nav{
-    padding-right: 0;
-    padding-right:20px;
-}
-
-.navbar-right > ul.nav > li{
-    padding:8px;
-}
-
-.navbar-right > ul.nav > li a{
-    margin:2px 17px;
-}
-
-.navbar-right > ul.nav > li a:hover{
-    margin:0px 7px;
-}
-nav#work-navbar > .container .navbar-right > ul.nav > li{
-    font-size: 24px;
-    height: 100%;
-    text-align: right;
-    font-weight: lighter;
-    letter-spacing: 2px;
-    line-height: 2;
-    color: #404041;
-    margin-top: 10px;
+.navbar-inverse{
+    border-width: 0;
+    background-color: #1D1D1E;
+    margin-bottom: 0;
+    color: #F7F5F0;
+    transition: all 0.5s;
+    #nav-links {
+        .navbar-left{
+            ul.nav>li>a{
+                margin: -8px 16px;
+                opacity: 0.5;
+                &:hover{
+                    border-bottom: solid 3px #F7F5F0;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    &.navbar-crux-default{
+        min-height: 30px;
+        .navbar-header{
+            .navbar-brand{
+                .nav-logo{
+                    height: 30px;
+                    margin: -8px;
+                }
+                &.nav-scrolled{
+                    padding:0;
+                }
+            }
+        }
+        #nav-links {
+            .navbar-left{
+                ul.nav>li>a{
+                    height: 30px;
+                    padding: 5px 0 0;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 480px) {

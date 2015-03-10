@@ -86,25 +86,29 @@
 }
 
 .navbar-inverse{
+    
     border-width: 0;
     background-color: #1D1D1E;
     margin-bottom: 0;
     color: #F7F5F0;
     transition: all 0.5s;
+
     .navbar-header{
         .navbar-brand{
-            img{
-                transition: all 0.5s;
-                height: 136px;
+            a{
+                img{
+                    transition: all 0.5s;
+                    height: 136px;
+                }
             }
         }
     }
     #nav-links {
         .navbar-left{
             ul.nav>li>a{
-                height: 152px;
-                padding: 63px 0 0;
-                margin: -8px 16px;
+                height: 144px;
+                padding: 61px 0 0;
+                margin: 0 16px -8px;
                 opacity: 0.5;
                 &:hover{
                     border-bottom: solid 3px #F7F5F0;
@@ -114,23 +118,26 @@
         }
     }
     &.navbar-crux-default{
-        min-height: 30px;
-        .navbar-header{
-            .navbar-brand{
-                .nav-logo{
-                    height: 30px;
-                    margin: -8px;
-                }
-                &.nav-scrolled{
-                    padding:0;
+        min-height: 36px;
+        .container{
+            padding: 0 8px 0;
+            .navbar-header{
+                .navbar-brand{
+                    .nav-logo{
+                        height: 36px;
+                        margin: 0;
+                    }
+                    &.nav-scrolled{
+                        padding:0;
+                    }
                 }
             }
-        }
-        #nav-links {
-            .navbar-left{
-                ul.nav>li>a{
-                    height: 30px;
-                    padding: 5px 0 0;
+            #nav-links {
+                .navbar-left{
+                    ul.nav>li>a{
+                        height: 36px;
+                        padding: 9px 0 0;
+                    }
                 }
             }
         }
@@ -139,7 +146,7 @@
 
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse li > a  {
-    font-size: 14px;
+    font-size: 11px;
     letter-spacing: 1px;
     color: #F7F5F0;
     padding: 8px;
@@ -156,10 +163,10 @@
     position: relative;
     z-index: 3;
     height: 100vh;
-
     .content-container{
-        padding-top: 25%;
+        padding-top: 20%;
         color: #fff;
+        /* text-shadow: 4px 4px 6px rgba(0, 0, 0, .8); */
         h1 {
             font-family: "bebas-neue", sans-serif;
             font-size: 70px;
