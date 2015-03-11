@@ -19,6 +19,17 @@
                     <li id="about-nav"><a class="pages-scroll" href="/#about">ABOUT</a></li>
                 </ul>
             </div>
+            <div class="hidden-sm navbar-right">
+                <ul class="nav navbar-nav">
+                    {% for media in site.data.social-media %}
+                      <li>
+                        <a href="{{ media.url }}" class="social-link" target="_blank">
+                            <img src="{{ media.image }}" height="18px">
+                        </a>
+                      </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </nav>

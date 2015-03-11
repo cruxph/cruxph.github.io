@@ -104,7 +104,7 @@
         }
     }
     #nav-links {
-        .navbar-left{
+        .navbar-left, .navbar-right{
             ul.nav>li>a{
                 height: 144px;
                 padding: 61px 0 0;
@@ -133,7 +133,7 @@
                 }
             }
             #nav-links {
-                .navbar-left{
+                .navbar-left, .navbar-right{
                     ul.nav>li>a{
                         height: 36px;
                         padding: 9px 0 0;
