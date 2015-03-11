@@ -18,7 +18,7 @@
         <ul class="social-links">
             {% for media in site.data.social-media %}
               <li>
-                <a href="{{ media.url }}" class="social-link" style="background-position-x: {{ media.image-offset }}" target="_blank"></a>
+                <a href="{{ media.url }}" class="social-link" style="background-position: {{ media.image-offset }} 0;" target="_blank"></a>
               </li>
             {% endfor %}
         </ul>
