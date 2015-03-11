@@ -11,7 +11,7 @@
 
 #work{
     background:transparent;
-    height: calc(100vh + 30px);
+    height: calc(100vh + 36px);
     z-index: -2;
 }
 
@@ -188,7 +188,7 @@
 #about{
     background-color: #000 !important;
     background-image: url(/img/about-bg.png);
-    min-height: calc(100vh - 72px);
+    min-height: calc(100vh - 36px);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -199,7 +199,7 @@
 }
 
 div#about img {
-    height: calc(100vh - 72px);
+    height: calc(100vh - 36px);
     width: auto;
     padding: 50px inherit;
 }
@@ -255,7 +255,7 @@ div#about > div.crux-logo-about-container{
     left: 0;
     right: 0;
     width: 100%;
-    height: calc(100vh - 72px);;
+    height: calc(100vh - 36px);;
 }
 
 .caption h1,p{
@@ -290,7 +290,7 @@ div#about > div.crux-logo-about-container{
 /* for 1200 or less */
 .image-hover {
     position: relative;
-    height: calc((100vh - 72px)/3);
+    height: calc((100vh - 36px)/3);
     background-repeat: no-repeat;
     background-position: center center;
 }
