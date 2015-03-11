@@ -116,6 +116,11 @@
                 }
             }
         }
+        .navbar-right{
+            ul.nav>li>a:hover{
+                border:none;
+            }
+        }
     }
     &.navbar-crux-default{
         min-height: 36px;
