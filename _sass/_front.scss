@@ -288,7 +288,12 @@ div#about > div.crux-logo-about-container{
 }
 
 #montage{
-  background: url(/img/reel-video-background.jpg) no-repeat center center fixed;
+//  background: url(/img/reel-video-background.jpg) no-repeat center center fixed;
+  background-image: url(/img/reel-video-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   height: 100vh;
   position: relative;
   z-index: 3;
