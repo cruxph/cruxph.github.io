@@ -7,6 +7,7 @@ og_type: website
 ---
 {% include front/nav.html %}
 {% include front/cover.html %}
+{% include front/montage.html %}
 {% include front/work.html %}
 
 <div id="work"></div>
@@ -18,15 +19,15 @@ og_type: website
 </div>
 <script src="{{ "/js/front.js" }}" type="text/javascript"></script>
 <script type="text/javascript">
-    $(document).ready(function () {
-        $.stellar({
-            horizontalScrolling: false,
-            scrollProperty: 'scroll',
-            positionProperty: 'position',
-            responsive: true,
-            hideDistantElements: false,
-            horizontalOffset: 0,
-            verticalOffset: 0
+        $(document).ready(function () {
+            $.stellar({
+                horizontalScrolling: false,
+                scrollProperty: 'scroll',
+                positionProperty: 'position',
+                responsive: true,
+                hideDistantElements: false,
+                horizontalOffset: 0,
+                verticalOffset: 0
+            });
         });
-    });
-</script>
+        </script>

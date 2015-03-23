@@ -287,6 +287,20 @@ div#about > div.crux-logo-about-container{
     padding:0;
 }
 
+#montage{
+  background: url(/img/reel-video-background.jpg) no-repeat center center fixed;
+  height: 100vh;
+  position: relative;
+  z-index: 3;
+  top: 0!important;
+  .montage-container{
+    text-align: center;
+    height: 100vh;
+    iframe{
+      margin-top: 20vh;
+    }
+  }
+}
 /* for 1200 or less */
 .image-hover {
     position: relative;
