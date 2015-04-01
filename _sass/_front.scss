@@ -162,6 +162,13 @@
     background-color: transparent;
 }
 
+#home-nav-sm{
+  a{
+    img{
+      height: 50px;
+    }
+  }
+}
 /* cover style */
 #cover {
     background-image: url('/img/cover.jpg');
@@ -331,6 +338,41 @@ div#about > div.crux-logo-about-container{
     div.crux-logo-about-container{
         text-align: center;
     }
+}
+
+@media screen and (max-width: 844px){
+  #nav-links{
+    .navbar-left{
+      .nav{
+        li{
+          a{
+            height: auto !important;
+            padding: 10px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .work-container{
+    position: relative;
+    top: 0;
+    height: auto;
+  }
+
+  #cover{
+    .content-container{
+      padding: 20% 10px 0 10px;
+      h1{
+        font-size: 60px;
+      }
+    }
+  }
+
+  div.work-page-container > .work-images > .work-item {
+    width: 100%!important;
+  }
+
 }
 
 /* for 768px or less */

@@ -1,8 +1,11 @@
 <nav class="navbar navbar-fixed-top navbar-inverse clearfix">
     <div class="container">
         <div class="navbar-header">
-            <div id="home-nav" class="navbar-brand">
+            <div id="home-nav" class="navbar-brand hidden-sm hidden-xs">
                 <a href="/"><img src="{{ '/img/crux-brand-inverse.png' | prepend: site.baseurl }}" class="nav-logo" height="100%"></a>
+            </div>
+            <div id="home-nav-sm" class="navbar-brand hidden-lg hidden-md">
+                <a href="/"><img src="{{ '/img/crux-logo-inverse.png' | prepend: site.baseurl }}" class="nav-logo" height="100%"></a>
             </div>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-links">
                 <span class="sr-only">Toggle navigation</span>
@@ -20,7 +23,7 @@
                     <li id="contact-nav"><a class="page-scroll" href="#contact">CONTACT</a></li>
                 </ul>
             </div>
-            <div class="hidden-sm navbar-right">
+            <div class="hidden-sm hidden-xs navbar-right">
                 <ul class="nav navbar-nav">
                     {% for media in site.data.social-media %}
                       <li>
