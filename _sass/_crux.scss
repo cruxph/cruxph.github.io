@@ -128,6 +128,13 @@ ul.nav{
 .brand-logo.nav-scrolled, .brand-logo-small {
     height: 36px;
 }
+
+@media (max-width: 850px){
+  iframe{
+    width: 604px;
+    height: 340px;
+  }
+}
 @media (min-width: 767px){
     .brand-logo {
         height: 192px;
@@ -138,6 +145,13 @@ ul.nav{
         content: url(/img/crux-sign.png);
         height: 36px;
     }
+}
+
+@media (max-width: 642px) {
+  iframe{
+    width: 90%;
+    height: 16%;
+  }
 }
 @media (min-width: 1366px){
     .container {
