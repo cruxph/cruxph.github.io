@@ -11,6 +11,7 @@ body#work-page > .container{
 }
 
 .navbar-inverse{
+    overflow-x: hidden !important;
     border-width: 0;
     background-color: #1D1D1E;
     margin-bottom: 0;

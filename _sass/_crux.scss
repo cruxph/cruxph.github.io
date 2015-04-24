@@ -7,7 +7,7 @@ body {
 }
 
 .address {
-    margin-top: 35vh;
+    margin-top: 35vh;  
 }
 
 footer {
@@ -59,9 +59,7 @@ footer .copyright {
 }
 
 @media (max-width: 960px){
-    .container {
-        width: 100%;
-    }
+    
     footer {
         text-align: center;
         width: inherit;
