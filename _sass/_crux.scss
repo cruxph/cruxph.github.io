@@ -59,7 +59,9 @@ footer .copyright {
 }
 
 @media (max-width: 960px){
-    
+    /*.container {
+        width: 100%;
+    }*/
     footer {
         text-align: center;
         width: inherit;
@@ -148,7 +150,8 @@ ul.nav{
 @media (max-width: 642px) {
   iframe{
     width: 90%;
-    height: 16%;
+    height: 50vh;
+   /* height: 16%;*/
   }
 }
 @media (min-width: 1366px){
